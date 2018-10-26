@@ -86,6 +86,7 @@ body {
 table.discolarge  {
 	
    float:left;
+
     
 }
 
@@ -120,11 +121,25 @@ table.discolarge  {
     background-color: rgb(219, 199, 189); 
    
 }
+
+/*----------------------------------------------Buttons */
+
+/* To generate responsive behaviour for button
+code taken from https://stackoverflow.com/questions/19284153/how-to-get-a-responsive-button-in-bootstrap-3*/
+
+.btn-responsive {
+    white-space: normal !important;
+    word-wrap: break-word;
+}
+
 .modal .btn-success {
     color: #fff;
     background-color: grey;
     border-color:transparent;
 }
+
+
+
 /*------------------------------------------------------Footer*/
 footer {
     background-color: grey;
@@ -165,3 +180,19 @@ footer {
 }
 
 
+/*-----------------------------Media queries*/
+
+/*for iphone/se code generated through chrome dev tools*/
+
+@media screen and (max-width: 767px)
+{
+.table-responsive {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    border: 1px solid #ddd;
+    display: block;
+  
+   }
+ 
+}
