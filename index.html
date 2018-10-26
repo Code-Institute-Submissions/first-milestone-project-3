@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The | BEATLES-Code Institute Milestone Project</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!--navigation-->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="#home">
+                    <img id="landing-logo" src="https://fontmeme.com/permalink/181023/38b214e2478e46129e500ac411fc3a09.png" alt="the-beatles-font"/>
+                </a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#landing-navbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="landing-navbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#fabfour-section">FABFOUR</a><li>
+                    <li><a href="#">GIGS</a></li>
+                    <li><a href="#disco-section">DISCOGRAPHY</a></li>
+                    <li><a  data-toggle='modal' data-target='#bookUsModal'>BOOK US</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Header-->
+    <header id="home">
+        <div class="landing-image">&nbsp;</div>
+    </header>
+    <!--Container(The Fablous Four Section)-->
+    <section class="container-wrapper--fabfour" id="fabfour-section">
+        <div class="container-fluid fabfour-content-container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2 class="text-center"> Fablous Foursome</h2>
+                    <hr class="block-divider block-divider-yellow">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-6 col-lg-4">
+                    <figure>
+                        <img class="img-responsive" src="assets/images/Beatles-Pic1.jpg" alt="FabFour">
+                        <figcaption>caption</figcaption>
+                    </figure>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-4">
+                    <p class="text-color">The Beatles were a legendary rock group that formed in Liverpool, England, in 1960, 
+                    and went on to transform popular music as a creative, highly commercial art form over the next decade. 
+                    The Beatles were one of the most popular bands of all time, producing songs 
+                    liske "Yesterday, "Hey Jude," "Penny Lane, "With A Little Help From My Friends," "Norwegian Wood (This Bird Has Flown),
+                    " "Day Tripper" and "Come Together." </p>
+                    <p>Learn more about the "Fab Four"—John Lennon, Paul McCartney, George Harrison and Ringo Starr—
+                    by exploring our Beatles collection....
+                    <button type="button" class="btn btn-info text-center">Read More</button>
+                    </p>
+               </div>
+               <div class="col-xs-12 hidden-md col-lg-4">
+                   <figure>
+                       <img class="img-responsive" src="assets/images/Beatles-Pic.jpg" alt="FabFour">
+                       <figcaption>caption</figcaption>
+                   </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-wrapper--gigs" id="gigs-section">
+        <div class="container-fluid gigs-content-container ">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2 class="text-center"> GIGS</h2>
+                    <hr class="block-divider block-divider-short">
+                </div>
+            </div>
+            <table class="table table-dark table-responsive">
+              <thead>
+                <tr>
+                  <th scope="col">Date</th>
+                  <th scope="col">Event</th>
+                  <th scope="col">Location</th>
+                  <th scope="col">Tickets</th>
+                </tr>
+              </thead>
+              <tbody>
+                 <tr>
+                  <td scope="row">DEC 24 2018</th>
+                  <td>CHRISTMAS EVE</td>
+                  <td>HOLIDAY INN</td>
+                  <td>SOLD OUT</td>
+                </tr>
+                <tr>
+                  <td scope="row">JAN 2 2019</th>
+                  <td>NEW YEAR FESTIVAL</td>
+                  <td>FESTIVAL SQUARE</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <tD scope="row">FEB 13 2019</th>
+                  <td>VALENTINE'S EVE</td>
+                  <td>COTTA MANSION</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td scope="row">JUNE 25 2019</th>
+                  <td>SUMMER BALL</td>
+                  <td>FESTIVAL SQUARE</td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+        </div>
+    </section>
+    <!-- Modal -->
+    <div class="modal fade" id="bookUsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Book Us for your Upcoming Event!</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="fullname">Full Name</label>
+                            <input type="text" class="form-control" id="fullname" placeholder="FullName" required/>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Email" required/>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactno">Contact Number</label>
+                            <input type="text" class="form-control" id="contactno" placeholder="Contact Number" required/>
+                        </div>
+                        <div class="form-group">
+                         <label for="event-time">Date/time:</label>
+                            <input type="datetime-local" id="event-time" class="form-control" name="party-time" value="2018-10-25T19:30" required/>
+                        </div>
+                        <label for="typeofevent">Event Type</label>
+                            <input type="text" id="typeofevent" class="form-control" list="eventType" required/>
+                            <datalist id="eventType">
+                              <option value="Birthday" />
+                              <option value="Wedding" />
+                              <option value="Christmas Party" />
+                              <option value="New Year Party" />
+                            </datalist>
+                        <div class="form-group">
+                            <label for="venue-address">Venue Address</label>
+                            <input type="text" class="form-control" id="venue-address" placeholder="VenueAddress" required/>
+                        </div>
+                        <div class="form-group">
+                            <label for="street-name">Street Name</label>
+                            <input type="text" class="form-control" id="street-name" placeholder="Street Name" required/>
+                        </div>
+                        <div class="form-group">
+                            <label for="city">City</label>
+                            <input type="text" class="form-control" id="city" placeholder="City" required/>
+                        </div>
+                        <div class="form-group">
+                            <label for="country">Country</label>
+                            <input type="text" class="form-control" id="country" placeholder="Country" required/>
+                        </div>
+                        <div class="form-group">
+                            <label for="postal-code">Postal Code</label>
+                            <input type="text" class="form-control" id="postal-code" placeholder="Postal Code" required/>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-success">Confirm Booking</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <footer class="text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p><h5>&copy;2018 Nadia Barreto - All Rights Reserved.</h5></p>
+          <p class="inline-block">
+	         
+	              <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+	           </p>
+        </div>
+      </div>
+    </div>
+    </footer>
+</body>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>

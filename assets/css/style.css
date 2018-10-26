@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Mali:100,200,300,400,500,600,700');
+
+body {
+    font-family:Mali,sans-serif;
+    
+}
+
+/*---------------------------------------------------Header*/
+.landing-image {
+    position:relative;
+    background: url('../images/Beatles.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-bottom: 75%; /* resize landing-image to fit smaller devices code from http://thenewcode.com/586/CSS-Fluid-Image-Techniques-for-Responsive-Site-Design*/
+}
+/*----------------------------------------------Navigation*/
+.navbar
+{
+     top:0;
+    left:0;
+    margin-bottom: 0px;
+    background-color: rgb(25,25,112);
+    border:0px;
+    position:fixed;
+    width:100%;
+    z-index:1;
+     min-height: 80px;
+
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #ffffff;
+    font-weight: bold;
+}
+.navbar-default .navbar-nav>li>a:focus, 
+.navbar-default .navbar-nav>li>a:hover {
+    color: rgb(255,255,0);
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle:focus, 
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+#landing-logo
+{
+    padding:5px 0px 0px 5px;
+    
+}
+/*--------------------------------------------------Containers*/
+.container-wrapper--fabfour
+{
+    background: url('../images/discosection.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container-wrapper--gigs{
+     background: url('../images/gigsbackground.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.gigs-content-container 
+{
+    color:#ffffff;
+}
+
+/*------------------------------------------------------Block Dividers*/
+.block-divider-short {
+    width: 50px;
+}
+.block-divider-yellow
+{
+    width:50px;
+
+}
+/*--------------------------------------------------------Table*/
+table.discolarge  {
+	
+   float:left;
+    
+}
+
+.discolarge th  {
+	padding:5px;
+	border-bottom:2px solid #111;
+	border-top:1px solid #999;
+	font-size:90%;
+	text-align:center;}
+
+.discolarge th,td {
+	padding:5px;}
+
+.discolarge td:last-child {
+	text-align:center;}
+
+.discolarge tr:nth-child(odd)  {
+	background-color:#efefef;}
+
+.discolarge tr:hover  {
+	background-color:#c3e6e5;}
+
+/*---------------------------------------------------------Modal*/	
+.modal-open {
+  position: fixed;
+  overflow: scroll;
+  width: 100%;
+  padding-right: 0!important;
+ 
+}
+.modal-content{
+    background-color: rgb(219, 199, 189); 
+   
+}
+.modal .btn-success {
+    color: #fff;
+    background-color: grey;
+    border-color:transparent;
+}
+/*------------------------------------------------------Footer*/
+footer {
+    background-color: grey;
+  
+  
+}
+.fa {
+    padding-bottom:0;
+    margin-bottom: 0px;
+    font-size: 15px;
+    width:30px;
+    text-align: center;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/*-----------------------------disco section*/
+.disco-heading
+{
+     text-align: center;
+}
+
+
