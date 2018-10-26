@@ -9,14 +9,28 @@ body {
    font-size:20px;
    color:#000000;
 }
-.gigs-content-container 
-{
-    color:#ffffff;
+.fabfour-content-container{
+    padding-top:80px;
+    padding-bottom:80px;
 }
-.disco-content-container
-{
-    color:#000000;
+.audio-content-container{
+    color:#ffffff;
+     padding-top:80px;
+    padding-bottom:80px;
+ 
+}
+
+.video-content-container{    
+    color:#ffffff;
     font-weight:300;
+    padding-top:80px;
+    padding-bottom:80px;
+}
+.gigs-content-container {
+    color:#ffffff;
+    font-size:30px;
+    padding-top:80px;
+    padding-bottom:80px;
 }
 /*---------------------------------------------------Header*/
 .landing-image {
@@ -64,9 +78,16 @@ body {
     
 }
 /*--------------------------------------------------Containers*/
-.container-wrapper--fabfour
-{
+.container-wrapper--fabfour{
     background: url('../images/fabfoursection.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container-wrapper--audio{
+    background: url('../images/audiosection.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -79,18 +100,21 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+  
 
 }
 
-.container-wrapper--disco
+.container-wrapper--video
 {
-     background: url('../images/discosection.jpg') no-repeat center center;
+     background: url('../images/videosection.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     padding-bottom: 30px;
+ 
 }
+
 
 /*-----------------------------------------------------Figure*/
 figure
@@ -114,10 +138,6 @@ figure .img-responsive
     background-color:rgb(25,25,112);
     border-radius:2px;
 
-}
-.mejs-container, .mejs-container .mejs-controls, .mejs-embed, .mejs-embed body
-{
-background: #1E90FF !important;
 }
 
 /*--------------------------------------------------------Table*/
@@ -145,6 +165,20 @@ table.discolarge  {
 .discolarge tr:hover  {
 	background-color:#c3e6e5;}
 
+.discotable {
+	border-collapse: collapse;
+	margin:0px auto;
+	/* used https://mycolor.space/gradient?ori=to+right+top&hex=%236C6F73&hex2=%23F0F2EA&sub=1 to generated gradients*/
+     background-image: linear-gradient(to top right, #0b0b0c, #3b3d3f, #6d7474, #a6afab, #eaede3);
+  text-align:center;
+  
+   
+}
+	
+
+.discotable td {
+   
+    padding:5px;}
 /*---------------------------------------------------------Modal*/	
 .modal-open {
   position: fixed;
@@ -217,17 +251,12 @@ footer {
 /*-----------------------------Media queries*/
 
 
-/* Style for Medium Screen used chrome dev tools */
+/* Used Chrome Dev Tools */
+
 @media screen and (max-width: 767px)
 {
 .table-responsive {
-    width: 100%;
-    margin-bottom: 15px;
-    overflow-y: hidden;
-    border: 1px solid #ddd;
     display: block;
-  
-   }
- 
+    
+    } 
 }
-

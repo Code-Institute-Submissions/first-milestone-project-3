@@ -29,7 +29,8 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#home">HOME</a></li>
                     <li><a href="#fabfour-section">FABFOUR</a><li>
-                    <li><a href="#disco-section">DISCOGRAPHY</a></li>
+                    <li><a href="#audio-section">AUDIOS</a></li>
+                      <li><a href="#video-section">VIDE0S</a></li>
                     <li><a href="#gigs-section">GIGS</a></li>
                     <li><a  data-toggle='modal' data-target='#bookUsModal'>BOOK US</a></li>
                 </ul>
@@ -78,13 +79,62 @@
             </div>
         </div>
     </section>
-    
-    <!--Container(The Discography Section)-->
-    <section class="container-wrapper--disco" id="disco-section">
-        <div class="container-fluid disco-content-container">
+   
+     <!--Container(The Audio Section)-->
+    <section class="container-wrapper--audio" id="audio-section">
+        <div class="container-fluid audio-content-container">
             <div class="row">
                 <div class="col-xs-12">
-                    <h1 class="text-center">DISCOGRAPHY</h1>
+                    <h1 class="text-center">AUDIOS</h1>
+                    <hr class="block-divider block-divider-blue">
+                </div>
+            </div>
+            <div class="row">
+                <table class="table-responsive" align="center">
+						<tr>
+							<th>I WANT TO HOLD YOU HAND</th>
+							<td>
+								<audio controls autoplay>
+									<source src="assets/audios/I_want_to_hold_your_hand.wav">
+								</audio>
+							</td>
+						</tr>
+						<tr>
+							<th>LET IT BE</th>
+							<td>
+								<audio controls>
+									<source src="assets/audios/Let_It_Be.wav">
+								</audio>
+							</td>
+						</tr>
+						<tr>
+							<th>YELLOW SUBMARINE</th>
+							<td>
+								<audio controls>
+									<source src="assets/audios/Yellow_Submarine.wav">
+								</audio>
+							</td>
+						</tr>
+						<tr>
+							<th>YESTERDAY</th>
+							<td>
+								<audio controls>
+									<source src="assets/audios/Yesterday.wav">
+								</audio>
+							</td>
+						</tr>
+				</table>
+				
+            </div>
+        </div>
+   </section>
+   
+    <!--Container(The Video Section)-->
+    <section class="container-wrapper--video" id="video-section">
+        <div class="container-fluid video-content-container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1 class="text-center">VIDEOS</h1>
                     <hr class="block-divider block-divider-blue">
                 </div>
             </div>
@@ -100,20 +150,8 @@
 	    	        </div>
                 </div>
             </div>
-            <br/><br/><br/>
-            <!--<div class="row">
-                <div class="col-xs-12 col-md-6">
-                    <div style="width:200px;height:250px;">
-                    <img class="img-responsive img-rounded" src="assets/images/I_want_to_hold_your_hand.jpg"/>
-                    <audio controls class="embed-responsive-item">
-                	    <source src="../assets/audios/I_want_to_hold_your_hand.wav" type="audio/wav"/>
-                    </audio>
-                    </div>
-	    	    </div>
-            </div>-->
-         </div>
-            
-    </section>
+        </div>
+   </section>
     
     <!--Container(The Gigs Section)-->
     <section class="container-wrapper--gigs" id="gigs-section">
@@ -124,7 +162,7 @@
                     <hr class="block-divider block-divider-blue">
                 </div>
             </div>
-            <table class="table table-dark table-responsive text-center">
+            <table class="table table-responsive text-center">
               <thead>
                 <tr>
                   <th class="text-center" scope="col">Date</th>
@@ -162,6 +200,7 @@
             </table>
         </div>
     </section>
+    
     <!-- Modal -->
     <div class="modal fade" id="bookUsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
@@ -223,7 +262,8 @@
             </div>
         </div>
     </div>
-    <!--footer-->
+    
+    <!--Footer-->
     <footer class="text-center">
     <div class="container">
       <div class="row">
