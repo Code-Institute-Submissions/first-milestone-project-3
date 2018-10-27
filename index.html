@@ -93,7 +93,7 @@
             <div class="row">
                 <table class="table-responsive" align="center">
 						<tr>
-						    <td><img class="img-responsive" src="assets/images/Meet_the_Beatles.jpg"/></td>
+						    <td><img class="img-responsive" src="assets/images/Meet_the_Beatles.jpg" alt="Meet_the_Beatles_album"/></td>
 							<th>I WANT TO HOLD YOUR HAND</th>
 							<td>
 								<audio controls autoplay>
@@ -102,7 +102,7 @@
 							</td>
 						</tr>
 						<tr>
-						    <td><img class="img-responsive" src="assets/images/Let_It_Be.jpg"/></td>
+						    <td><img class="img-responsive" src="assets/images/Let_It_Be.jpg" alt="Let_It_Be_album"/></td>
 							<th>LET IT BE</th>
 							<td>
 								<audio controls>
@@ -111,7 +111,7 @@
 							</td>
 						</tr>
 						<tr>
-						    <td><img class="img-responsive" src="assets/images/Yellow_Submarine.jpg"/></td>
+						    <td><img class="img-responsive" src="assets/images/Yellow_Submarine.jpg" alt="Yellow_Submarine_album"/></td>
 							<th>YELLOW SUBMARINE</th>
 							<td>
 								<audio controls>
@@ -120,7 +120,7 @@
 							</td>
 						</tr>
 						<tr>
-						     <td><img class="img-responsive" src="assets/images/Yesterday.jpg"/></td>
+						     <td><img class="img-responsive" src="assets/images/Yesterday.jpg" alt="Help_album"/></td>
 							<th>YESTERDAY</th>
 							<td>
 								<audio controls>
@@ -146,12 +146,12 @@
             <div class="row">
                 <div class="col-xs-12 col-md-6">
                     <div class="embed-responsive embed-responsive-16by9 img-thumbnail">
-	    	            <iframe width="560" height="315" src="https://www.youtube.com/embed/NCtzkaL2t_Y" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>       
+	    	            <iframe width="560" height="315" src="https://www.youtube.com/embed/NCtzkaL2t_Y" allow="autoplay; encrypted-media" allowfullscreen></iframe>       
 	    	        </div>
 	    	    </div>
                 <div class="col-xs-12 col-md-6">
                     <div class="embed-responsive embed-responsive-16by9 img-thumbnail">
-	    	            <iframe width="560" height="315" src="https://www.youtube.com/embed/rblYSKz_VnI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>      
+	    	            <iframe width="560" height="315" src="https://www.youtube.com/embed/rblYSKz_VnI" allow="autoplay; encrypted-media" allowfullscreen></iframe>      
 	    	        </div>
                 </div>
             </div>
@@ -170,33 +170,33 @@
             <table class="table table-responsive text-center">
               <thead>
                 <tr>
-                  <th class="text-center" scope="col">Date</th>
-                  <th class="text-center" scope="col">Event</th>
-                  <th class="text-center" scope="col">Location</th>
-                  <th class="text-center" scope="col">Tickets</th>
+                  <th class="text-center">Date</th>
+                  <th class="text-center">Event</th>
+                  <th class="text-center">Location</th>
+                  <th class="text-center">Tickets</th>
                 </tr>
               </thead>
               <tbody>
                  <tr>
-                  <td scope="row">DEC 24 2018</th>
+                  <td>DEC 24 2018</td>
                   <td>CHRISTMAS EVE</td>
                   <td>HOLIDAY INN</td>
                   <td><button type="button" class="btn btn-danger btn-responsive">SOLD OUT</button></td>
                 </tr>
                 <tr>
-                  <td scope="row">JAN 2 2019</th>
+                  <td>JAN 2 2019</td>
                   <td>NEW YEAR FESTIVAL</td>
                   <td>FESTIVAL SQUARE</td>
                   <td><button type="button" class="btn btn-info btn-warning">FEW LEFT</button></td>
                 </tr>
                 <tr>
-                  <td scope="row">FEB 13 2019</th>
+                  <td>FEB 13 2019</td>
                   <td>VALENTINE'S EVE</td>
                   <td>COTTA MANSION</td>
                   <td><button type="button" class="btn btn-info btn-responsive">BUY TICKETS</button></td>
                 </tr>
                 <tr>
-                  <td scope="row">JUNE 25 2019</th>
+                  <td>JUNE 25 2019</td>
                   <td>SUMMER BALL</td>
                   <td>FESTIVAL SQUARE</td>
                   <td><button type="button" class="btn btn-info btn-responsive">BUY TICKETS</button></td>
@@ -235,10 +235,10 @@
                         <label for="typeofevent">Event Type</label>
                             <input type="text" id="typeofevent" class="form-control" list="eventType" required/>
                             <datalist id="eventType">
-                              <option value="Birthday" />
-                              <option value="Wedding" />
-                              <option value="Christmas Party" />
-                              <option value="New Year Party" />
+                              <option value="Birthday">
+                              <option value="Wedding">
+                              <option value="Christmas Party">
+                              <option value="New Year Party">
                             </datalist>
                         <div class="form-group">
                             <label for="venue-address">Venue Address</label>
@@ -278,43 +278,46 @@
         </div>
         <form >
                         <div class="text-center">
-                            <label for="email">&nbsp;&nbsp;Email address:&nbsp;&nbsp;</label>
-                            <input type="email" id="email" size="35" placeholder="Email Address (Required)" required/>
+                            <label for="subscribeemail">&nbsp;&nbsp;Email address:&nbsp;&nbsp;</label>
+                            <input type="email" id="subscribeemail" size="35" placeholder="Email Address (Required)" required/>
                         
-                            <label for="postalcode">&nbsp;&nbsp;Postal Code:&nbsp;&nbsp;</label>
-                            <input type="text" id="contactno" size="35" placeholder="Postal Code" required/>
+                            <label for="subscribepostalcode">&nbsp;&nbsp;Postal Code:&nbsp;&nbsp;</label>
+                            <input type="text" id="subscribepostalcode" size="35" placeholder="Postal Code" required/>
                             
                             <label for="country">&nbsp;&nbsp;Country:&nbsp;&nbsp;</label>
-                            <input type="text" id="country" list="countryType" size="35" placeholder="Country" required/>
+                            <input type="text" id="countrysubscribe" list="countryType" size="35" placeholder="Country" required/>
                             <datalist id="countryType">
-                              <option value="Canada" />
-                              <option value="Dominican Republic" />
-                              <option value="Greece" />
-                              <option value="Kuwait" />
+                              <option value="Canada">
+                              <option value="Dominican Republic">
+                              <option value="Greece">
+                              <option value="Kuwait">
                             </datalist>&nbsp;&nbsp;
-                            <button type="button" class="btn btn-secondary btn-responsive">SUBSCRIBE</button>
+                            <button type="button" class="btn btn-success btn-responsive">SUBSCRIBE</button>
                         </div>
         </form>
       </div>
     </section>
-    </footer>
+  
     <!--Footer-->
-    <!--<footer>-->
-    <!--<div class="container">-->
-    <!--  <div class="row">-->
-      
-    <!--      <p><h5>&copy;2018 Nadia Barreto - All Rights Reserved.</h5>-->
-    <!--      <span class="inline-block text-right">-->
-	         
-	   <!--           <a href="#" class="fa fa-facebook"></a>-->
-    <!--                <a href="#" class="fa fa-twitter"></a>-->
-    <!--                <a href="#" class="fa fa-youtube"></a></span>-->
-	   <!--        </p>-->
-      
-    <!--  </div>-->
-    <!--</div>-->
-    <!--</footer>-->
-</body>
+     <footer class="container-fluid">
+            <div id="footer-details" class="row">
+                <div class="col-sm-6">
+                  <ul class="list-inline social-links">
+                        <li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a target="_blank" href="#"><i class="fa fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6">
+                    <p class="inline-block text-right">
+                       &copy;Nadia Barreto, All Rights Reserved<br/>
+                       A CODE INSITITUTE MILESTONE PROJECT
+                                     
+                    </p>
+                </div>
+            </div>
+        </footer>
+
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
