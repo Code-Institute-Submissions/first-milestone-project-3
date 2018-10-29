@@ -4,40 +4,23 @@ body {
     font-family:'Roboto Condensed',sans-serif;
 }
 /*-----------------------------------------------Fonts and Colors*/
-.general-sub
-{
+
+.fabfour-content-container{
    font-size:20px;
    color:#000000;
 }
-.fabfour-content-container
-{
-    min-height:500px;
-}
-.audio-content-container{
-    color:#ffffff;
+.audio-content-container,
+.video-content-container,
+.gigs-content-container,
+.getupdates-content-container{
+     color:#ffffff;
      min-height:500px;
-     padding-bottom:30px;
-
+     padding-bottom: 30px;
 }
 
-.video-content-container{    
-    color:#ffffff;
-    font-weight:300;
-    min-height:500px;
-    padding-bottom:9px;
+.getupdates-content-container{
+     min-height:250px;
 }
-.gigs-content-container {
-    color:#ffffff;
-    font-size:30px;
-    padding-top:80px;
-    padding-bottom:80px;
-}
-.getupdates-content-container
-{
-      color:#ffffff;
-    min-height:250px;
-}
-
 /*---------------------------------------------------Header*/
 .landing-image {
     position:relative;
@@ -46,11 +29,12 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding-bottom: 75%; /* resize landing-image to fit smaller devices code from http://thenewcode.com/586/CSS-Fluid-Image-Techniques-for-Responsive-Site-Design*/
+    padding-bottom: 75%; /* (width/height)* 100 resize landing-image to 
+    fit smaller devices code from http://thenewcode.com/586/CSS-Fluid-Image-Techniques-for-Responsive-Site-Design*/
 }
+
 /*----------------------------------------------Navigation*/
-.navbar
-{
+.navbar{
     top:0;
     left:0;
     margin-bottom: 0px;
@@ -60,7 +44,6 @@ body {
     width:100%;
     z-index:1;
     min-height: 80px;
-
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -70,6 +53,7 @@ body {
     font-size:20px;
      white-space:nowrap;
 }
+
 .navbar-default .navbar-nav>li>a:focus, 
 .navbar-default .navbar-nav>li>a:hover {
     color: rgb(255,255,0);
@@ -80,11 +64,11 @@ body {
 .navbar-default .navbar-toggle:hover {
     background-color: transparent;
 }
-#landing-logo
-{
-    padding:5px 0px 0px 5px;
-    
+
+#landing-logo{
+    padding:5px;
 }
+
 /*--------------------------------------------------Containers*/
 .container-wrapper--fabfour{
     background: url('../images/fabfoursection.jpg') no-repeat center center;
@@ -101,73 +85,75 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
-
+.container-wrapper--video{
+     background: url('../images/videosection.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+ 
 .container-wrapper--gigs{
      background: url('../images/gigsbackground.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  
-
 }
 
-.container-wrapper--video
-{
-     background: url('../images/videosection.jpg') no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    padding-bottom: 30px;
- 
-}
-.container-wrapper--getupdates
-{
+.container-wrapper--getupdates{
     background-color: #525252;
 }
 
 /*-----------------------------------------------------Figure*/
-figure
-{
+figure{
     text-align: center;
     padding-bottom:10px;
     font-style: italic;
   
 }
-figure .img-responsive
-{
+figure .img-responsive{
         margin-left: auto;
     margin-right: auto
 }
+figcaption{
+    font-style:italic;
+    font-size:15px;
+}
 /*------------------------------------------------------Block Dividers*/
 
-.block-divider-blue
-{
+.block-divider-blue{
     width:75px;
     height:7px;
     background-color:rgb(25,25,112);
     border-radius:2px;
-
 }
 
-
+/*-------------------------------------------------------Table*/
 
 th,td{
-   
+   font-size:23px;
     padding-right: 10px;
 }
+
 /*---------------------------------------------------------Modal*/	
+
+/*Body width increases when modal is opened -issue resolved from https://github.com/jschr/bootstrap-modal/issues/64*/
 .modal-open {
   position: fixed;
   overflow: scroll;
   width: 100%;
   padding-right: 0!important;
- 
 }
+
 .modal-content{
     background-color: rgb(219, 199, 189); 
-   
+}
+
+.modal .btn-success {
+    color: #fff;
+    background-color: grey;
+    border-color:transparent;
 }
 
 /*----------------------------------------------Buttons */
@@ -180,13 +166,6 @@ code taken from https://stackoverflow.com/questions/19284153/how-to-get-a-respon
     word-wrap: break-word;
 }
 
-.modal .btn-success {
-    color: #fff;
-    background-color: grey;
-    border-color:transparent;
-}
-
-
 
 /*------------------------------------------------------Footer*/
 footer{
@@ -195,8 +174,6 @@ footer{
     min-height: 120px;
     margin:0;
 }
-
-
 
 
 #footer-details{
@@ -213,7 +190,6 @@ footer{
     line-height: 7px;
     text-align: center;
     color: #fafafa;
-  
     transition: all,0.35s ease-in-out;
     -moz-transition: all,0.35s ease-in-out;
     -webkit-transition: all,0.35s ease-in-out;
@@ -246,11 +222,19 @@ footer{
 
 /* Used Chrome Dev Tools */
 
-@media screen and (max-width: 767px)
+@media screen and (max-width: 768px)
 {
 .table-responsive {
     display: block;
     border:none;
     font-size: 16px;
     } 
+    
+
+}
+
+@media only screen and (max-width: 600px) {
+    .audio-content-container img{
+    display: none;
+  }
 }
