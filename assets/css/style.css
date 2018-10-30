@@ -7,7 +7,8 @@ body {
 /*-----------------------------------------------Fonts and Colors*/
 
 .fabfour-content-container,
-.info-content-container{
+.info-content-container,
+.getupdates-content-container{
    font-size:20px;
    color:#000000;
    padding-bottom: 30px;
@@ -16,8 +17,7 @@ body {
 
 .audio-content-container,
 .video-content-container,
-.gigs-content-container,
-.getupdates-content-container{
+.gigs-content-container{
      color:#ffffff;
      min-height:500px;
      padding-bottom: 30px;
@@ -124,7 +124,7 @@ body {
 }
 
 .container-wrapper--getupdates{
-    background-color: #525252;
+    background-color: #f7f7f8;
 }
 
 .container-wrapper--info{
@@ -165,7 +165,11 @@ th,td{
    font-size:23px;
     padding-right: 10px;
 }
+/*--------------------------------------------------------Audio*/
+audio{
+    width:250px;
 
+}
 /*---------------------------------------------------------Modal*/	
 
 /*Body width increases when modal is opened -issue resolved from https://github.com/jschr/bootstrap-modal/issues/64*/
@@ -185,7 +189,16 @@ th,td{
     background-color: grey;
     border-color:transparent;
 }
-
+/*--------------------------------------------------*Forms*/
+.form-control {
+  display: block;
+  width: 100%;
+  height: 50px;
+  padding: 16px 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
 
 
 /*----------------------------------------------Buttons */
@@ -197,6 +210,14 @@ code taken from https://stackoverflow.com/questions/19284153/how-to-get-a-respon
     white-space: normal !important;
     word-wrap: break-word;
 }
+.btn-primary {
+    color: #fff !important;
+    background-color: #101010 !important;
+    border-color: #101010 !important;
+    font-size:20px;
+    padding-top:5px;
+}
+
 
 /*------------------------------------------------------Footer*/
 footer{
@@ -257,8 +278,10 @@ footer{
     .table-responsive {
         display: block;
         border:none;
-        font-size: 16px;
     } 
+    audio{
+    width:150px;
+    }
      #heading{
        height:50vw;
     }
