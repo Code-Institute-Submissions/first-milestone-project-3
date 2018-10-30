@@ -68,7 +68,7 @@
                     " "Day Tripper" and "Come Together." </p>
                     <p>Learn more about the "Fab Four"—John Lennon, Paul McCartney, George Harrison and Ringo Starr—
                     by exploring our Beatles collection....
-                    <button type="button" class="btn btn-info text-center">Read More</button>
+                    <button type="button" class="btn btn-info text-center" onclick="window.location.href='/aboutus.html'">Read More</button>
                     </p>
                </div>
                <div class="col-xs-12 hidden-md col-lg-4">
@@ -93,7 +93,7 @@
             <div class="row">
                 <table class="table-responsive" align="center">
 						<tr>
-						    <td><img class=" hidden-md hidden-sm img-responsive" src="assets/images/Meet_the_Beatles.jpg" alt="Meet_the_Beatles_album"/></td>
+						    <td><img class="img-responsive" src="assets/images/Meet_the_Beatles.jpg" alt="Meet_the_Beatles_album"/></td>
 							<th>I WANT TO HOLD YOUR HAND</th>
 							<td>
 								<audio controls>
@@ -102,7 +102,7 @@
 							</td>
 						</tr>
 						<tr>
-						    <td><img class="hidden-md hidden-sm img-responsive" src="assets/images/Let_It_Be.jpg" alt="Let_It_Be_album"/></td>
+						    <td><img class="img-responsive" src="assets/images/Let_It_Be.jpg" alt="Let_It_Be_album"/></td>
 							<th>LET IT BE</th>
 							<td>
 								<audio controls>
@@ -111,7 +111,7 @@
 							</td>
 						</tr>
 						<tr>
-						    <td><img class="hidden-md hidden-sm img-responsive" src="assets/images/Yellow_Submarine.jpg" alt="Yellow_Submarine_album"/></td>
+						    <td><img class="img-responsive" src="assets/images/Yellow_Submarine.jpg" alt="Yellow_Submarine_album"/></td>
 							<th>YELLOW SUBMARINE</th>
 							<td>
 								<audio controls>
@@ -120,7 +120,7 @@
 							</td>
 						</tr>
 						<tr>
-						     <td><img class="hidden-md hidden-sm img-responsive" src="assets/images/Yesterday.jpg" alt="Help_album"/></td>
+						     <td><img class="img-responsive" src="assets/images/Yesterday.jpg" alt="Help_album"/></td>
 							<th>YESTERDAY</th>
 							<td>
 								<audio controls>
@@ -145,12 +145,12 @@
             <div class="row">
                 <div class="col-xs-12 col-md-6">
                     <div class="embed-responsive embed-responsive-16by9 img-thumbnail">
-	    	            <iframe width="560" height="315" src="https://www.youtube.com/embed/NCtzkaL2t_Y" allow="autoplay; encrypted-media" allowfullscreen></iframe>       
-	    	        </div>
+	    	            <iframe width="560" height="315" src="https://www.youtube.com/embed/NCtzkaL2t_Y"  allow="autoplay; encrypted-media" allowfullscreen></iframe>      </div>
 	    	    </div>
                 <div class="col-xs-12 col-md-6">
                     <div class="embed-responsive embed-responsive-16by9 img-thumbnail">
-	    	            <iframe width="560" height="315" src="https://www.youtube.com/embed/rblYSKz_VnI" allow="autoplay; encrypted-media" allowfullscreen></iframe>      
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ePf6qOJpHWQ" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	    	 
 	    	        </div>
                 </div>
             </div>
@@ -275,23 +275,23 @@
                     <hr class="block-divider block-divider-blue">
                 </div>
         </div>
-        <form >
+        <form>
                         <div class="text-center">
                             <label for="subscribeemail">&nbsp;&nbsp;Email address:&nbsp;&nbsp;</label>
-                            <input type="email" id="subscribeemail" size="35" placeholder="Email Address (Required)" required/>
+                            <input type="email" id="subscribeemail" size="35"  required placeholder="Email Address (Required)" />
                         
                             <label for="subscribepostalcode">&nbsp;&nbsp;Postal Code:&nbsp;&nbsp;</label>
-                            <input type="text" id="subscribepostalcode" size="35" placeholder="Postal Code" required/>
+                            <input type="text" id="subscribepostalcode" size="35" required  placeholder="Postal Code" />
                             
                             <label for="country">&nbsp;&nbsp;Country:&nbsp;&nbsp;</label>
-                            <input type="text" id="countrysubscribe" list="countryType" size="35" placeholder="Country" required/>
+                            <input type="text" id="countrysubscribe" list="countryType" size="35" required placeholder="Country" />
                             <datalist id="countryType">
                               <option value="Canada">
                               <option value="Dominican Republic">
                               <option value="Greece">
                               <option value="Kuwait">
                             </datalist>&nbsp;&nbsp;
-                            <button type="button" class="btn btn-success btn-responsive">SUBSCRIBE</button>
+                            <button type="submit" class="btn btn-success btn-responsive">SUBSCRIBE</button>
                         </div>
         </form>
       </div>

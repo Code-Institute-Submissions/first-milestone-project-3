@@ -1,13 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:100,200,300,400,500,600,700|Fira+Sans+Condensed:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Khand');
 
 body {
     font-family:'Roboto Condensed',sans-serif;
 }
 /*-----------------------------------------------Fonts and Colors*/
 
-.fabfour-content-container{
+.fabfour-content-container,
+.info-content-container{
    font-size:20px;
    color:#000000;
+   padding-bottom: 30px;
+   padding-top:30px;
 }
 .audio-content-container,
 .video-content-container,
@@ -16,21 +19,34 @@ body {
      color:#ffffff;
      min-height:500px;
      padding-bottom: 30px;
+     padding-top:30px;
 }
 
 .getupdates-content-container{
      min-height:250px;
 }
+
 /*---------------------------------------------------Header*/
 .landing-image {
     position:relative;
-    background: url('../images/Beatles.jpg') no-repeat center center;
+    background: url('../images/Beatles_landing_image.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     padding-bottom: 75%; /* (width/height)* 100 resize landing-image to 
     fit smaller devices code from http://thenewcode.com/586/CSS-Fluid-Image-Techniques-for-Responsive-Site-Design*/
+}
+#heading
+{ 
+    width: 100%;
+  height: 450px;
+  padding: 20px 0;
+  background: url('../images/Beatles_aboutus_image.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 /*----------------------------------------------Navigation*/
@@ -43,15 +59,17 @@ body {
     position:fixed;
     width:100%;
     z-index:1;
-    min-height: 80px;
+    min-height: 50px;
+
 }
 
 .navbar-default .navbar-nav>li>a {
-    font-family:'Fira Sans Condensed', sans-serif;
+    font-family:'Khand', sans-serif;
     color: #ffffff;
     font-weight: bold;
-    font-size:20px;
-     white-space:nowrap;
+    font-size:18.5px;
+    left:-25px;
+
 }
 
 .navbar-default .navbar-nav>li>a:focus, 
@@ -104,6 +122,13 @@ body {
 .container-wrapper--getupdates{
     background-color: #525252;
 }
+.container-wrapper--info{
+    background: url('../images/fabfoursection.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
 /*-----------------------------------------------------Figure*/
 figure{
@@ -155,6 +180,9 @@ th,td{
     background-color: grey;
     border-color:transparent;
 }
+
+
+
 
 /*----------------------------------------------Buttons */
 
@@ -229,12 +257,13 @@ footer{
     border:none;
     font-size: 16px;
     } 
-    
+ 
 
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
     .audio-content-container img{
     display: none;
   }
 }
+
