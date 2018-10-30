@@ -3,6 +3,7 @@
 body {
     font-family:'Roboto Condensed',sans-serif;
 }
+
 /*-----------------------------------------------Fonts and Colors*/
 
 .fabfour-content-container,
@@ -12,6 +13,7 @@ body {
    padding-bottom: 30px;
    padding-top:30px;
 }
+
 .audio-content-container,
 .video-content-container,
 .gigs-content-container,
@@ -26,27 +28,32 @@ body {
      min-height:250px;
 }
 
+.info-content-container img{
+   display:inline-block;
+   padding-left:15px;
+}
+.audio-content-container table{
+    margin-left:auto; 
+    margin-right:auto;
+}
 /*---------------------------------------------------Header*/
-.landing-image {
-    position:relative;
+#landing-image {
     background: url('../images/Beatles_landing_image.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding-bottom: 75%; /* (width/height)* 100 resize landing-image to 
-    fit smaller devices code from http://thenewcode.com/586/CSS-Fluid-Image-Techniques-for-Responsive-Site-Design*/
+    padding-bottom: 63%; /* https://help.issuu.com/hc/en-us/articles/115000631608-Resizing-Embeds-To-Be-Responsive*/
 }
-#heading
-{ 
-    width: 100%;
-  height: 450px;
-  padding: 20px 0;
-  background: url('../images/Beatles_aboutus_image.jpg') no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+
+#heading{ 
+    background: url('../images/Beatles_aboutus_image.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width:100%; 
+    height:30vw;/* https://help.issuu.com/hc/en-us/articles/115000631608-Resizing-Embeds-To-Be-Responsive*/
 }
 
 /*----------------------------------------------Navigation*/
@@ -60,7 +67,6 @@ body {
     width:100%;
     z-index:1;
     min-height: 50px;
-
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -68,8 +74,6 @@ body {
     color: #ffffff;
     font-weight: bold;
     font-size:18.5px;
-    left:-25px;
-
 }
 
 .navbar-default .navbar-nav>li>a:focus, 
@@ -122,6 +126,7 @@ body {
 .container-wrapper--getupdates{
     background-color: #525252;
 }
+
 .container-wrapper--info{
     background: url('../images/fabfoursection.jpg') no-repeat center center;
     -webkit-background-size: cover;
@@ -138,7 +143,7 @@ figure{
   
 }
 figure .img-responsive{
-        margin-left: auto;
+    margin-left: auto;
     margin-right: auto
 }
 figcaption{
@@ -183,7 +188,6 @@ th,td{
 
 
 
-
 /*----------------------------------------------Buttons */
 
 /* To generate responsive behaviour for button
@@ -194,7 +198,6 @@ code taken from https://stackoverflow.com/questions/19284153/how-to-get-a-respon
     word-wrap: break-word;
 }
 
-
 /*------------------------------------------------------Footer*/
 footer{
     background-color: #000000;
@@ -202,7 +205,6 @@ footer{
     min-height: 120px;
     margin:0;
 }
-
 
 #footer-details{
     margin:20px;
@@ -252,18 +254,31 @@ footer{
 
 @media screen and (max-width: 768px)
 {
-.table-responsive {
-    display: block;
-    border:none;
-    font-size: 16px;
+    .table-responsive {
+        display: block;
+        border:none;
+        font-size: 16px;
     } 
- 
-
+     #heading{
+       height:50vw;
+    }
+    .span1{
+        padding-left:10px;
+        padding-right:10px;
+    }
+    body{
+        text-align: justify;
+    }
 }
 
-@media (max-width: 600px) {
-    .audio-content-container img{
+@media (max-width: 600px) 
+{
+   .audio-content-container img{
     display: none;
+  }
+    .span1{
+    padding-left:10px;
+    padding-right:10px;
   }
 }
 
