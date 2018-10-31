@@ -7,35 +7,38 @@ body {
 /*-----------------------------------------------Fonts and Colors*/
 
 .fabfour-content-container,
-.info-content-container,
+.getupdates-content-container,
+.gigs-content-container,
 .getupdates-content-container{
-   font-size:20px;
    color:#000000;
-   padding-bottom: 30px;
-   padding-top:30px;
+   padding: 95px 40px 95px 40px;
 }
 
 .audio-content-container,
-.video-content-container,
-.gigs-content-container{
+.video-content-container{
      color:#ffffff;
-     min-height:500px;
-     padding-bottom: 30px;
-     padding-top:30px;
-}
-
-.getupdates-content-container{
-     min-height:250px;
+     padding: 95px 40px 95px 40px;
 }
 
 .info-content-container img{
    display:inline-block;
-   padding-left:15px;
+   padding-left:9px;
 }
 .audio-content-container table{
     margin-left:auto; 
     margin-right:auto;
 }
+.fabfour-content-container img{
+    width:373px;
+    height:280px;
+}
+.fabfour-content-container p,
+.info-content-container p,
+.info-content-container ul
+{
+    font-size:18px;
+}
+
 /*---------------------------------------------------Header*/
 #landing-image {
     background: url('../images/Beatles_landing_image.jpg') no-repeat center center;
@@ -101,14 +104,14 @@ body {
 }
 
 .container-wrapper--audio{
-    background: url('../images/audiosection.jpg') no-repeat center center;
+    background: url('../images/audiobackground.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 .container-wrapper--video{
-     background: url('../images/videosection.jpg') no-repeat center center;
+     background: url('../images/videobackground.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -116,15 +119,11 @@ body {
 }
  
 .container-wrapper--gigs{
-     background: url('../images/gigsbackground.jpg') no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+      background-color: rgb(219, 199, 189); 
 }
 
 .container-wrapper--getupdates{
-    background-color: #f7f7f8;
+    background-color: #808080;
 }
 
 .container-wrapper--info{
@@ -134,6 +133,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
+
 
 /*-----------------------------------------------------Figure*/
 figure{
@@ -154,7 +154,6 @@ figcaption{
 
 .block-divider-blue{
     width:75px;
-    height:7px;
     background-color:rgb(25,25,112);
     border-radius:2px;
 }
@@ -162,13 +161,22 @@ figcaption{
 /*-------------------------------------------------------Table*/
 
 th,td{
-   font-size:23px;
-    padding-right: 10px;
+   font-size:18px;
+   padding-right: 10px;
+}
+/*----------------------https://stackoverflow.com/questions/18075794/bootstrap-table-without-stripe-borders---*/
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+    border: none;
 }
 /*--------------------------------------------------------Audio*/
+
 audio{
     width:250px;
-
 }
 /*---------------------------------------------------------Modal*/	
 
@@ -185,12 +193,21 @@ audio{
 }
 
 .modal .btn-success {
-    color: #fff;
-    background-color: grey;
+    color: #000000;
+    background-color: #ffffff;
     border-color:transparent;
+    margin-left:auto;
+    margin-right:auto;
+    display:block
 }
-/*--------------------------------------------------*Forms*/
-.form-control {
+.modal-content .btn-success:hover {
+    color: #fff;
+    background-color: #101010;
+    border-color: #101010;
+}
+
+/*----------------------------------------------Get Updates Section */
+.getupdates-content-container .form-control {
   display: block;
   width: 100%;
   height: 50px;
@@ -200,22 +217,21 @@ audio{
   transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
 }
 
-
-/*----------------------------------------------Buttons */
-
-/* To generate responsive behaviour for button
-code taken from https://stackoverflow.com/questions/19284153/how-to-get-a-responsive-button-in-bootstrap-3*/
-
-.btn-responsive {
-    white-space: normal !important;
-    word-wrap: break-word;
+.getupdates-content-container .btn {
+    transition: .3s ease-out;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    padding: 15px 10px;
 }
-.btn-primary {
-    color: #fff !important;
-    background-color: #101010 !important;
-    border-color: #101010 !important;
-    font-size:20px;
-    padding-top:5px;
+
+.getupdates-content-container .btn-primary {
+    color: #fff;
+    background-color: #101010;
+    border-color: #101010;
+}
+.getupdates-content-container .btn-primary:hover{
+    background-color: #ffffff;
+    color: #000000;
 }
 
 
@@ -268,7 +284,7 @@ footer{
 
 
 
-/*-----------------------------Media queries*/
+/*---------------------------------------Media queries*/
 
 
 /* Used Chrome Dev Tools */
@@ -291,6 +307,9 @@ footer{
     }
     body{
         text-align: justify;
+    }
+    #footer-details p,ul{
+      text-align:center;
     }
 }
 

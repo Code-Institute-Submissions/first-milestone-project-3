@@ -56,7 +56,7 @@
             <div class="row">
                 <div class="col-xs-12 col-md-6 col-lg-4">
                     <figure>
-                        <img class="img-responsive" src="assets/images/Beatles-Pic1.jpg" alt="The Band Memebers">
+                        <img class="img-responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvk0i9cqSx-hBSXVd9tsN6uuBcWtfkfb7o1-XcSVQf2IVH3J8-WA" alt="The Band Memebers">
                         <figcaption>from left to right:Paul McCartney,George Harrison,Ringo Starr and John Lennon</figcaption>
                     </figure>
                 </div>
@@ -69,7 +69,7 @@
                     <p>Learn more about the "Fab Four"—John Lennon, Paul McCartney, George Harrison and Ringo Starr—
                     by exploring our Beatles....
                    
-                    <button type="submit" class="btn btn-primary" onclick="window.location.href='/aboutus.html'">Read More</button>
+                    <a href="aboutus.html">Read More</a>
                       
                     </p>
                </div>
@@ -94,6 +94,7 @@
             </div>
             <div class="row">
                 <table class="table-responsive">
+                    <tbody>
 						<tr>
 						    <td><img class="img-responsive" src="assets/images/Meet_the_Beatles.jpg" alt="Meet_the_Beatles_album"/></td>
 							<th>I WANT TO HOLD YOUR HAND</th>
@@ -130,6 +131,7 @@
 								</audio>
 							</td>
 						</tr>
+					</tbody>
 				</table>
             </div>
         </div>
@@ -168,7 +170,7 @@
                     <hr class="block-divider block-divider-blue">
                 </div>
             </div>
-            <table class="table table-responsive text-center">
+            <table class="table table-responsive text-center table-borderless">
               <thead>
                 <tr>
                   <th class="text-center">Date</th>
@@ -234,7 +236,7 @@
                             <input type="datetime-local" id="event-time" class="form-control" name="party-time" value="2018-10-25T19:30" required/>
                         </div>
                         <label for="typeofevent">Event Type</label>
-                            <input type="text" id="typeofevent" class="form-control" list="eventType" required/>
+                            <input type="text" id="typeofevent" placeholder="Select Event Type" class="form-control" list="eventType" required/>
                             <datalist id="eventType">
                               <option value="Birthday">
                               <option value="Wedding">
