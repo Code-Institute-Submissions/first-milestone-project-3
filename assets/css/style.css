@@ -60,6 +60,7 @@ body {
 }
 
 /*----------------------------------------------Navigation*/
+/*Code taken from Code institute learning videos(Bootstrap Project)*/
 .navbar{
     top:0;
     left:0;
@@ -168,7 +169,7 @@ th,td{
 
 .table>tbody>tr>td{
     padding: 8px;
-    line-height: 1.42857143;
+    line-height: 1.5;
     vertical-align: top;
     border-top: none;
 }
@@ -179,7 +180,7 @@ audio{
 }
 /*---------------------------------------------------------Modal*/	
 
-/*Body width increases when modal is opened -issue resolved from https://github.com/jschr/bootstrap-modal/issues/64*/
+/*Body width increases when modal is opened -issue resolved from https://github.com/jschr/bootstrap-modal/issues/64 */
 .modal-open {
   position: fixed;
   overflow: scroll;
@@ -213,7 +214,6 @@ audio{
   padding: 16px 20px;
   font-size: 16px;
   line-height: 1.5;
-  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
 }
 
 .getupdates-content-container .btn {
@@ -246,7 +246,7 @@ footer{
     margin:20px;
     letter-spacing:0.2em;
 }
-
+/*Code taken from Code institute learning videos(Resume Project)*/
 .social-links li a i{
     width: 32px;
     height:32px;
@@ -294,9 +294,7 @@ footer{
         display: block;
         border:none;
     } 
-    audio{
-    width:150px;
-    }
+  
      #heading{
        height:50vw;
     }
@@ -318,6 +316,9 @@ footer{
    .audio-content-container img{
     display: none;
   }
+    audio{
+    width:180px;
+    }
     .span1{
     padding-left:10px;
     padding-right:10px;
