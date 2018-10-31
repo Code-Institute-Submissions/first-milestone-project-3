@@ -154,6 +154,7 @@ figcaption{
 
 .block-divider-blue{
     width:75px;
+    height:5px;
     background-color:rgb(25,25,112);
     border-radius:2px;
 }
@@ -164,14 +165,12 @@ th,td{
    font-size:18px;
    padding-right: 10px;
 }
-/*----------------------https://stackoverflow.com/questions/18075794/bootstrap-table-without-stripe-borders---*/
-.table-borderless > tbody > tr > td,
-.table-borderless > tbody > tr > th,
-.table-borderless > tfoot > tr > td,
-.table-borderless > tfoot > tr > th,
-.table-borderless > thead > tr > td,
-.table-borderless > thead > tr > th {
-    border: none;
+
+.table>tbody>tr>td{
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: none;
 }
 /*--------------------------------------------------------Audio*/
 
@@ -308,7 +307,8 @@ footer{
     body{
         text-align: justify;
     }
-    #footer-details p,ul{
+    #footer-details p,
+     #footer-details ul{
       text-align:center;
     }
 }
