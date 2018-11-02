@@ -17,6 +17,7 @@ body {
 .gigs-content-container,
 .audio-content-container{
     font-size:20px;
+    padding-bottom: 30px;
 }
 .video-content-container,
 .audio-content-container{
@@ -36,6 +37,7 @@ body {
 .info-content-container ul{
     font-size:18px;
 }
+
 .top-spacing { 
     padding-top:20px; 
 }
