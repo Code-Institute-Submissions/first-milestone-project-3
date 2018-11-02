@@ -219,7 +219,7 @@
                     <h4 class="modal-title" id="myModalLabel">Book Us for your Upcoming Event!</h4>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form onsubmit="myFunction();">
                         <div class="form-group">
                             <label for="fullname">Full Name</label>
                             <input type="text" class="form-control" id="fullname" placeholder="FullName" required/>
@@ -281,18 +281,18 @@
                 </div>
         </div>
         <!--https://getbootstrap.com/docs/4.0/components/forms/-->
-        <form class="getupdates-form-inline">
+        <form class="getupdates-form-inline" name="form1" onsubmit="change();return false;">
                         <div class="form-group">
                             <label for="subscribeemail" class="form-label"></label>
-                            <input type="email" id="subscribeemail" size="50"  required placeholder="Email Address (Required)" class="form-control form-control-gray-base" />
+                            <input type="email" id="subscribeemail" name="subscribeemail" size="50"  required placeholder="Email Address (Required)" class="form-control form-control-gray-base" />
                         </div>
                         <div class="form-group">
                             <label for="subscribepostalcode" class="form-label"></label>
-                            <input type="text" id="subscribepostalcode" size="25" required  placeholder="Postal Code" class="form-control form-control-gray-base"/>
+                            <input type="text" id="subscribepostalcode" name="subscribepostalcode" size="25" required  placeholder="Postal Code" class="form-control form-control-gray-base"/>
                         </div>
                         <div class="form-group">
                             <label for="country" class="form-label"></label>
-                            <input type="text" id="countrysubscribe" list="countryType" size="50" required placeholder="Country" class="form-control form-control-gray-base" />
+                            <input type="text" id="countrysubscribe" name="countrysubscribe" list="countryType" size="50" required placeholder="Country" class="form-control form-control-gray-base" />
                             <datalist id="countryType">
                               <option value="Canada">
                               <option value="Dominican Republic">
@@ -300,25 +300,26 @@
                               <option value="Kuwait">
                             </datalist>
                         </div>
-				         <div class="form-group">
-                          <button type="submit" class="btn btn-primary">SUBSCRIBE</button>
-                          </div>
-					
-                      
+				        <div class="form-group">
+                            <button type="submit" class="btn btn-primary" id="subscribe">SUBSCRIBE</button>
+                        </div>
         </form>
       </div>
     </section>
     <!--Footer-->
      <footer class="container-fluid">
             <div id="footer-details" class="row">
-                <div class="col-sm-6">
+                <div class="col-sm-4">
                   <ul class="list-inline social-links">
                         <li><a target="_blank" href="https://www.facebook.com/thebeatles/"><i class="fa fa-facebook"></i></a></li>
                         <li><a target="_blank" href="https://twitter.com/thebeatles?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa fa-twitter"></i></a></li>
                         <li><a target="_blank" href="https://www.youtube.com/thebeatles"><i class="fa fa-youtube"></i></a></li>
                     </ul>
                 </div>
-                <div class="col-sm-6">
+                 <div class="col-sm-4 text-center">
+                  <a id="go-to-top" href="#home">Back to top</a>
+                </div>
+                <div class="col-sm-4">
                     <p class="inline-block text-right">
                        &copy;Nadia Barreto, A Fan of Beatles <br/>
                        A CODE INSITITUTE MILESTONE PROJECT
@@ -326,6 +327,20 @@
                 </div>
             </div>
         </footer>
+    <script>
+      /*https://www.w3schools.com/jsref/event_onsubmit.asp*/
+        function change()
+        {
+            if (document.forms["form1"]["subscribeemail"].value != "" && document.forms["form1"]["subscribepostalcode"].value !="" && document.forms["form1"]["countrysubscribe"].value!="")
+            {
+                document.getElementById("subscribe").innerHTML="&#10004;SUBSCRIBED";
+            }
+        }
+        function myFunction() {
+        if (confirm("Thank you for Booking Us,We will get back to you as soon as possible!")) {} 
+        }
+</script>
+    </script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>

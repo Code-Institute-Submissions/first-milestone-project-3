@@ -9,7 +9,8 @@ body {
 .fabfour-content-container,
 .getupdates-content-container,
 .getupdates-content-container,
-.gigs-content-container{
+.gigs-content-container
+.info-content-container{
    color:#000000;
    padding: 95px 40px 95px 40px;
 }
@@ -43,7 +44,14 @@ body {
     vertical-align: middle;
     float: none;
 }
-
+#go-to-top{
+    color:#ffffff;
+    text-decoration: none;
+}
+#go-to-top:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
 
 /*---------------------------------------------------Header*/
 #landing-image {
@@ -291,11 +299,13 @@ footer{
 
 
 /* Used Chrome Dev Tools */
-
 @media screen and (max-width: 768px)
 {
     #heading{
        height:50vw;
+    }
+    #landing-image{
+        padding-bottom: 90%;
     }
     .span1{
         padding-left:10px;
@@ -329,8 +339,10 @@ footer{
     .span1{
         padding-left:10px;
         padding-right:10px;
-        
-  }
+    }
+   #landing-image{
+        padding-bottom: 98%;
+    }
 }
 
 /*logic and understandig taken from https://www.w3schools.com/howto/howto_css_inline_form.asp*/
