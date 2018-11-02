@@ -4,29 +4,27 @@ body {
     font-family:'Roboto Condensed',sans-serif;
 }
 
-/*-----------------------------------------------Fonts and Colors*/
+/*-----------------------------------------------Fonts,Colors,General display*/
 
 .fabfour-content-container,
 .getupdates-content-container,
-.gigs-content-container,
-.getupdates-content-container{
+.getupdates-content-container,
+.gigs-content-container{
    color:#000000;
    padding: 95px 40px 95px 40px;
 }
-
-.audio-content-container,
-.video-content-container{
+.gigs-content-container,
+.audio-content-container{
+    font-size:20px;
+}
+.video-content-container,
+.audio-content-container{
      color:#ffffff;
      padding: 95px 40px 95px 40px;
 }
-
 .info-content-container img{
    display:inline-block;
    padding-left:9px;
-}
-.audio-content-container table{
-    margin-left:auto; 
-    margin-right:auto;
 }
 .fabfour-content-container img{
     width:373px;
@@ -34,10 +32,18 @@ body {
 }
 .fabfour-content-container p,
 .info-content-container p,
-.info-content-container ul
-{
+.info-content-container ul{
     font-size:18px;
 }
+.top-spacing { 
+    padding-top:20px; 
+}
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
 
 /*---------------------------------------------------Header*/
 #landing-image {
@@ -124,7 +130,7 @@ body {
 }
 
 .container-wrapper--getupdates{
-    background-color: #808080;
+    background-color: #f6f6f7;
 }
 
 .container-wrapper--info{
@@ -151,6 +157,7 @@ figcaption{
     font-style:italic;
     font-size:15px;
 }
+
 /*------------------------------------------------------Block Dividers*/
 
 .block-divider-blue{
@@ -159,20 +166,14 @@ figcaption{
     background-color:rgb(25,25,112);
     border-radius:2px;
 }
-
-/*-------------------------------------------------------Table*/
-
-th,td{
-   font-size:18px;
-   padding-right: 10px;
+/*------------------------------------------------------Buttons*/
+.btn-danger {
+    font-size: 18px;
+}
+.btn-info {
+      font-size: 18px;
 }
 
-.table>tbody>tr>td{
-    padding: 8px;
-    line-height: 1.5;
-    vertical-align: top;
-    border-top: none;
-}
 /*--------------------------------------------------------Audio*/
 
 audio{
@@ -207,34 +208,37 @@ audio{
 }
 
 /*----------------------------------------------Get Updates Section */
-.getupdates-content-container .form-control {
-  display: block;
-  width: 100%;
-  height: 50px;
-  padding: 16px 20px;
-  font-size: 16px;
-  line-height: 1.5;
+
+.getupdates-form-inline div{
+    margin-bottom: 0;
+    padding: 12px 15px 15px 12px;
+}
+.getupdates-form-inline .form-control {
+      height: 50px;
+      padding: 12px 12px;
+      font-size: 18px;
+      line-height: 1.5;
 }
 
-.getupdates-content-container .btn {
+.getupdates-form-inline .btn {
+    margin-top:25px;
     transition: .3s ease-out;
     font-size: 18px;
     letter-spacing: 0.01em;
-    padding: 15px 10px;
 }
 
-.getupdates-content-container .btn-primary {
+.getupdates-form-inline .btn-primary {
     color: #fff;
     background-color: #101010;
     border-color: #101010;
 }
-.getupdates-content-container .btn-primary:hover{
+.getupdates-form-inline .btn-primary:hover{
     background-color: #ffffff;
     color: #000000;
 }
 
-
 /*------------------------------------------------------Footer*/
+
 footer{
     background-color: #000000;
     color: #fafafa;
@@ -290,12 +294,7 @@ footer{
 
 @media screen and (max-width: 768px)
 {
-    .table-responsive {
-        display: block;
-        border:none;
-    } 
-  
-     #heading{
+    #heading{
        height:50vw;
     }
     .span1{
@@ -306,22 +305,41 @@ footer{
         text-align: justify;
     }
     #footer-details p,
-     #footer-details ul{
-      text-align:center;
+    #footer-details ul{
+         text-align:center;
     }
+    #vanish{
+        display:none;
+    }
+     .video-content-container .top-spacing { 
+        padding-top:20px; 
+    }
+    .getupdates-form-inline .btn {
+    width:100%;
+  }
+
+  
 }
 
 @media (max-width: 600px) 
 {
-   .audio-content-container img{
-    display: none;
-  }
     audio{
-    width:180px;
+        width:180px;
     }
     .span1{
-    padding-left:10px;
-    padding-right:10px;
+        padding-left:10px;
+        padding-right:10px;
   }
 }
+
+/*logic and understandig taken from https://www.w3schools.com/howto/howto_css_inline_form.asp*/
+@media (min-width: 768px) {
+  .getupdates-form-inline {
+    display: flex;
+	 margin: 0 auto;
+    width:80%
+  }
+}
+
+
 

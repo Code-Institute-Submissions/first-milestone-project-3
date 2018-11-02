@@ -32,7 +32,7 @@
                     <li><a href="#audio-section">AUDIOS</a></li>
                     <li><a href="#video-section">VIDE0S</a></li>
                     <li><a href="#gigs-section">GIGS</a></li>
-                    <li><a  data-toggle='modal' data-target='#bookUsModal'>BOOK US</a></li>
+                    <li><a href="#" id="bookus-modal" data-toggle='modal' data-target='#bookUsModal'>BOOK US</a></li>
                     <li><a href="#getupdates-section"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;GET UPDATES</a></li>
                 </ul>
             </div>
@@ -68,9 +68,7 @@
                     " "Day Tripper" and "Come Together." </p>
                     <p>Learn more about the "Fab Four"—John Lennon, Paul McCartney, George Harrison and Ringo Starr—
                     by exploring our Beatles....
-                   
                     <a href="aboutus.html">Read More</a>
-                      
                     </p>
                </div>
                <div class="col-xs-12 hidden-md col-lg-4">
@@ -85,54 +83,64 @@
    
      <!--Container(The Audio Section)-->
     <section class="container-wrapper--audio" id="audio-section">
-        <div class="container-fluid audio-content-container">
+        <div class="container-fluid audio-content-container text-center">
             <div class="row">
                 <div class="col-xs-12">
                     <h1 class="text-center">AUDIOS</h1>
                     <hr class="block-divider block-divider-blue">
                 </div>
             </div>
-            <div class="row">
-                <table class="table-responsive">
-                    <tbody>
-						<tr>
-						    <td><img class="img-responsive" src="assets/images/Meet_the_Beatles.jpg" alt="Meet_the_Beatles_album"/></td>
-							<th>I WANT TO HOLD YOUR HAND</th>
-							<td>
-								<audio controls>
-									<source src="assets/audios/I_want_to_hold_your_hand.wav">
-								</audio>
-							</td>
-						</tr>
-						<tr>
-						    <td><img class="img-responsive" src="assets/images/Let_It_Be.jpg" alt="Let_It_Be_album"/></td>
-							<th>LET IT BE</th>
-							<td>
-								<audio controls>
-									<source src="assets/audios/Let_It_Be.wav">
-								</audio>
-							</td>
-						</tr>
-						<tr>
-						    <td><img class="img-responsive" src="assets/images/Yellow_Submarine.jpg" alt="Yellow_Submarine_album"/></td>
-							<th>YELLOW SUBMARINE</th>
-							<td>
-								<audio controls>
-									<source src="assets/audios/Yellow_Submarine.wav">
-								</audio>
-							</td>
-						</tr>
-						<tr>
-						     <td><img class="img-responsive" src="assets/images/Yesterday.jpg" alt="Help_album"/></td>
-							<th>YESTERDAY</th>
-							<td>
-								<audio controls>
-									<source src="assets/audios/Yesterday.wav">
-								</audio>
-							</td>
-						</tr>
-					</tbody>
-				</table>
+            <div class="row top-spacing">
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 vcenter">
+                    <figure>
+                        <img class="img-responsive" src="assets/images/Meet_the_Beatles.jpg" alt="Meet_the_Beatles_album"/>
+                    </figure>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 vcenter">MEET THE BEATLES(1964)-I WANT TO HOLD YOUR HAND</div>
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 vcenter">
+                    <audio controls>
+					    <source src="assets/audios/I_want_to_hold_your_hand.wav">
+					</audio>
+				</div>
+            </div>
+            <div class="row top-spacing">
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 vcenter">
+                    <figure>
+                        <img class="img-responsive" src="assets/images/Yesterday.jpg" alt="Help_album"/>   
+                    </figure>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 vcenter">Help!(1965)-YESTERDAY</div>
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 vcenter">	
+                   	<audio controls>
+					    <source src="assets/audios/Yesterday.wav">
+					</audio>
+				</div>
+            </div>
+            <div class="row top-spacing">
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 vcenter">
+                    <figure>
+                        <img class="img-responsive" src="assets/images/Yellow_Submarine.jpg" alt="Yellow_Submarine_album"/>
+                    </figiure>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 vcenter">YELLOW SUBMARINE(1969)-YELLOW SUBMARINE</div>
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 vcenter">	
+                    <audio controls>
+					    <source src="assets/audios/Yellow_Submarine.wav">
+					</audio>
+				</div>
+            </div>
+            <div class="row top-spacing">
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 vcenter">
+                    <figure>
+                        <img class="img-responsive" src="assets/images/Let_It_Be.jpg" alt="Let_It_Be_album"/>
+                    </figure>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 vcenter">LET IT BE(1970)-LET IT BE</div>
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 vcenter">	
+                    <audio controls>
+					    <source src="assets/audios/Let_It_Be.wav">
+					</audio>
+				</div>
             </div>
         </div>
    </section>
@@ -147,14 +155,13 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-12 col-md-6">
+                <div class="col-xs-12 col-md-6 top-spacing">
                     <div class="embed-responsive embed-responsive-16by9 img-thumbnail">
 	    	            <iframe width="560" height="315" src="https://www.youtube.com/embed/NCtzkaL2t_Y"  allow="autoplay; encrypted-media" allowfullscreen></iframe>      </div>
 	    	    </div>
-                <div class="col-xs-12 col-md-6">
+                <div class="col-xs-12 col-md-6 top-spacing">
                     <div class="embed-responsive embed-responsive-16by9 img-thumbnail">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/ePf6qOJpHWQ" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-	    	 
 	    	        </div>
                 </div>
             </div>
@@ -163,49 +170,43 @@
     
     <!--Container(The Gigs Section)-->
     <section class="container-wrapper--gigs" id="gigs-section">
-        <div class="container-fluid gigs-content-container ">
+        <div class="container-fluid gigs-content-container text-center">
             <div class="row">
                 <div class="col-xs-12">
                     <h2 class="text-center">GIGS</h2>
                     <hr class="block-divider block-divider-blue">
                 </div>
             </div>
-            <table class="table table-responsive text-center table-borderless">
-              <thead>
-                <tr>
-                  <th class="text-center">Date</th>
-                  <th class="text-center">Event</th>
-                  <th class="text-center">Location</th>
-                  <th class="text-center">Tickets</th>
-                </tr>
-              </thead>
-              <tbody>
-                 <tr>
-                  <td>DEC 24 2018</td>
-                  <td>CHRISTMAS EVE</td>
-                  <td>HOLIDAY INN</td>
-                  <td><button type="button" class="btn btn-danger btn-responsive">SOLD OUT</button></td>
-                </tr>
-                <tr>
-                  <td>JAN 2 2019</td>
-                  <td>NEW YEAR FESTIVAL</td>
-                  <td>FESTIVAL SQUARE</td>
-                  <td><button type="button" class="btn btn-info btn-warning">FEW LEFT</button></td>
-                </tr>
-                <tr>
-                  <td>FEB 13 2019</td>
-                  <td>VALENTINE'S EVE</td>
-                  <td>COTTA MANSION</td>
-                  <td><button type="button" class="btn btn-info btn-responsive">BUY TICKETS</button></td>
-                </tr>
-                <tr>
-                  <td>JUNE 25 2019</td>
-                  <td>SUMMER BALL</td>
-                  <td>FESTIVAL SQUARE</td>
-                  <td><button type="button" class="btn btn-info btn-responsive">BUY TICKETS</button></td>
-                </tr>
-              </tbody>
-            </table>
+            <div class="row top-spacing" id="vanish">
+                <div class="col-sm-3">Date</div>
+                <div class="col-sm-3">Event</div>
+                <div class="col-sm-3">Location</div>
+            	<div class="col-sm-3">Tickets</div>
+            </div>
+            <div class="row top-spacing">
+                <div class="col-sm-3">DEC 24 2018</div>
+                <div class="col-sm-3">CHRISTMAS EVE</div>
+                <div class="col-sm-3">Melbourne, Australia/HOLIDAY INN</div>
+            	<div class="col-sm-3"><button type="button" class="btn btn-danger btn-responsive">SOLD OUT</button></div>
+            </div>
+            <div class="row top-spacing">
+                <div class="col-sm-3">JAN 2 2019</div>
+                <div class="col-sm-3">NEW YEAR FESTIVAL</div>
+                <div class="col-sm-3">Toronto,Canada/FESTIVAL SQUARE</div>
+            	<div class="col-sm-3"><button type="button" class="btn btn-danger btn-responsive">SOLD OUT</button></div>
+            </div>
+            <div class="row top-spacing">
+                <div class="col-sm-3">FEB 13 2019</div>
+                <div class="col-sm-3">VALENTINE'S EVE</div>
+                <div class="col-sm-3">Sydney, Australia/COTTA MANSION</div>
+            	<div class="col-sm-3"><button type="button" class="btn btn-info btn-responsive">BUY TICKETS</button></div>
+            </div>
+             <div class="row top-spacing">
+                <div class="col-sm-3">JUNE 25 2019</div>
+                <div class="col-sm-3">SUMMER BALL</div>
+                <div class="col-sm-3">Toronto,Canada/FESTIVAL SQUARE</div>
+            	<div class="col-sm-3"><button type="button" class="btn btn-info btn-responsive">BUY TICKETS</buttonBUY TICKETS</button></div>
+            </div>
         </div>
     </section>
     
@@ -271,7 +272,7 @@
         </div>
     </div>
     <!--GET UPDATE-->
-    <section class="container-wrapper--getupdates" id="getupdates-section">
+   <section class="container-wrapper--getupdates" id="getupdates-section">
     <div class="container-fluid getupdates-content-container">
         <div class="row">
                 <div class="col-xs-12">
@@ -280,18 +281,18 @@
                 </div>
         </div>
         <!--https://getbootstrap.com/docs/4.0/components/forms/-->
-        <form class="form-inline text-center">
+        <form class="getupdates-form-inline">
                         <div class="form-group">
                             <label for="subscribeemail" class="form-label"></label>
-                            <input type="email" id="subscribeemail" size="35"  required placeholder="Email Address (Required)" class="form-control form-control-gray-base" />
+                            <input type="email" id="subscribeemail" size="50"  required placeholder="Email Address (Required)" class="form-control form-control-gray-base" />
                         </div>
                         <div class="form-group">
                             <label for="subscribepostalcode" class="form-label"></label>
-                            <input type="text" id="subscribepostalcode" size="35" required  placeholder="Postal Code" class="form-control form-control-gray-base"/>
+                            <input type="text" id="subscribepostalcode" size="25" required  placeholder="Postal Code" class="form-control form-control-gray-base"/>
                         </div>
                         <div class="form-group">
                             <label for="country" class="form-label"></label>
-                            <input type="text" id="countrysubscribe" list="countryType" size="35" required placeholder="Country" class="form-control form-control-gray-base" />
+                            <input type="text" id="countrysubscribe" list="countryType" size="50" required placeholder="Country" class="form-control form-control-gray-base" />
                             <datalist id="countryType">
                               <option value="Canada">
                               <option value="Dominican Republic">
@@ -299,12 +300,14 @@
                               <option value="Kuwait">
                             </datalist>
                         </div>
-                        <button type="submit" class="btn btn-primary">SUBSCRIBE</button>
+				         <div class="form-group">
+                          <button type="submit" class="btn btn-primary">SUBSCRIBE</button>
+                          </div>
+					
                       
         </form>
       </div>
     </section>
-  
     <!--Footer-->
      <footer class="container-fluid">
             <div id="footer-details" class="row">
@@ -319,12 +322,10 @@
                     <p class="inline-block text-right">
                        &copy;Nadia Barreto, A Fan of Beatles <br/>
                        A CODE INSITITUTE MILESTONE PROJECT
-                                     
                     </p>
                 </div>
             </div>
         </footer>
-    <a href="#" id="ui-to-top" class="ui-to-top fa fa-angle-up active"></a>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
