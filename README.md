@@ -67,18 +67,18 @@ Clicking the link below will direct you to dropbox<br/>
 - The **Navigation Menu** provides a single scrollable feature with clickable link directing users to different sections.<br/>
 Hovering over the links shows active status of the links. <br/>
 The Navigation Menu list collapses to a burger button when viewed on smaller devices.<br/><br/>
--The **Fab Four** section displays text and photo content about the band. <br/>A **“Read More”** 
+• The **Fab Four** section displays text and photo content about the band. <br/>A **“Read More”** 
 link will display a webpage with new images and more information about the band.<br/>
 Only the images displayed on the Fab Four have their sources (SRC) linked to other website URL’s.<br/><br/>
--The bands audio (.wav) and all other image (.jpg) files have been downloaded to assets/audios and 
+• The bands audio (.wav) and all other image (.jpg) files have been downloaded to assets/audios and 
 the assets/images folder respectively. The Audio controls width resizes to different devices.<br/><br/>
--**Video section** displays embedded (iframe) videos from YouTube<br/><br/>
--**Gigs section** outlines a tabular display of upcoming events and ticket status indicator. 
+• **Video section** displays embedded (iframe) videos from YouTube<br/><br/>
+• **Gigs section** outlines a tabular display of upcoming events and ticket status indicator. 
 The display conforms to different webpage sizes. <br/><br/>
--**Get updates section** provides a fan subscription option. Java script was used to change the 
+• **Get updates section** provides a fan subscription option. Java script was used to change the 
 button text to Subscribed once the user mandatory fields and clicks the button to complete the process.<br/><br/>
--The **Footer** displays social media connectors as clickable icons that can be directed to the bands social networks.<br/><br/>
--Clicking the **Book Us** link in the navigation menu activates a pop-up (Bootstrap modal) input form.
+• The **Footer** displays social media connectors as clickable icons that can be directed to the bands social networks.<br/><br/>
+• Clicking the **Book Us** link in the navigation menu activates a pop-up (Bootstrap modal) input form.
 Features include a datetime control, a drop down option for specific fields and pop-up windows confirming
 the inquiry has been submitted once all the mandatory fields have been completed.<br/>
 
