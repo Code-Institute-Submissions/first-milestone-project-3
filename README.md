@@ -138,14 +138,14 @@ This image is accessible only smaller and large devices.<br>
 
 5) **Get Updates Section**<br/>
 •	Verified error message on the form when the mandatory fields were left blank. 
-This also included the proper email format (xxx@xx.xxx)<br/>
+This also included the proper email format (xxx@xx.xxx) in testing.<br/>
 •	Validated the button text changed to Subscribed once the mandatory fields were updated.<br/>
 [Link to Get Update Test Case](https://www.dropbox.com/s/6v9h62ztd4b22vz/TestCase%20for%20Get%20Upates%20Section.jpg?dl=0)
 
 6) **Book us**<br/>
 •	Tested the link to open up a modal.<br/>
 •	Verified error message on the form when the mandatory fields were left blank. 
-This also included the proper email format (xxx@xx.xxx)<br/>
+This also included the proper email format (xxx@xx.xxx) in testing.<br/>
 •	Validated the activated button initiates a pop up acknowledgment window.<br/>
 [Link to Book Us Test Case](https://www.dropbox.com/s/k6tkmkg074y0mj0/BookUs%20Test%20Case.jpg?dl=0)
 
@@ -156,7 +156,7 @@ it directs you to the desired site.<br/>
 •   Confirmed the Back to the top link works by directing the user to the top of the webpage.<br/>
 
 # Deployment <br/>
-Project built in [Cloud9](https://ide.c9.io)
+Project built on [Cloud9](https://ide.c9.io)<br/>
 To perfom the Deployment  I used Git and Github pages<br/>
 I perfomed the following steps<br/>
 1)	Initialised the local directory in my project as a git repository used the cloud9 terminal to perfrm this step<br/>
@@ -203,7 +203,7 @@ Video iframe have been taken from [YOUTUBE](https://www.youtube.com/thebeatles)<
 To create ReadMe file refered [README MARKUPS](https://help.github.com/articles/basic-writing-and-formatting-syntax/#styling-text)
 
 # Acknowledgements
-Inspired fromthe Bootstrap Project "Whiskey Drop" and "Resume Project" from Code institute.Also took inspiration
+Inspired from the Bootstrap Project "Whiskey Drop" and "Resume Project" from Code institute.Also took inspiration
 from [Shania Twain website](https://www.shaniatwain.com/now-tour-2018) and [Beatles website](https://www.thebeatles.com/)
 
 
