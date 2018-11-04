@@ -59,8 +59,9 @@ He is now part of the bands followers linked by social media and the websites su
 
 #### Wireframes for Desktop and mobile version<br/>
 Clicking the link below will direct you to dropbox<br/>
-[Wireframes for Desktop and mobile version](https://www.dropbox.com/sh/kb2c7s5xm767xxi/AADAbJRUGHGs8sJOXAcoX8BPa?dl=0)
-
+[Wireframes for Desktop version](https://www.dropbox.com/s/jj3v94p7aaithal/Index_Page_Wireframe.jpg?dl=0)<br/>
+[Wireframes for Desktop version-About Us page](https://www.dropbox.com/s/pyuodgymoliqhtw/About_Us_Wireframe.jpg?dl=0)<br/>
+[Wireframe for Mobile Version](https://www.dropbox.com/s/dqckc62uodvmusw/Mobile_Devices_Wireframe.JPG?dl=0)<br/>
 
 #### Features
 -The website is responsive and conforms to different phone and computer browsers. This has been validated on the W3C Markup Validation Service.<br/>
@@ -135,16 +136,18 @@ This image is accessible only smaller and large devices.<br>
 •	Verified error message on the form when the mandatory fields were left blank. 
 This also included the proper email format (xxx@xx.xxx)<br/>
 •	Validated the button text changed to Subscribed once the mandatory fields were updated.<br/>
+[Link to Get Update Test Case](https://www.dropbox.com/s/6v9h62ztd4b22vz/TestCase%20for%20Get%20Upates%20Section.jpg?dl=0)
 
 6) **Book us**<br/>
 •	Tested the link to open up a modal.<br/>
 •	Verified error message on the form when the mandatory fields were left blank. 
 This also included the proper email format (xxx@xx.xxx)<br/>
 •	Validated the activated button initiates a pop up acknowledgment window.<br/>
+[Link to Test Case](Testing Get Updates)
 
-
-7) Footer- Social media and copyright
-Social media links - Clicked the social media icons i.e. Facebook, Twitter and Youtube and confirmed it directs you to the desired site.
-On small devices the social media and copyright are centered on the webpage.
-Confirmed the Back to the top link works by directing the user to the top of the webpage.
+7) **Footer- Social media and copyright**<br/>
+•   Social media links - Clicked the social media icons i.e. Facebook, Twitter and Youtube and confirmed 
+it directs you to the desired site.<br/>
+•   On small devices the social media and copyright are centered on the webpage.<br/>
+•   Confirmed the Back to the top link works by directing the user to the top of the webpage.<br/>
 
