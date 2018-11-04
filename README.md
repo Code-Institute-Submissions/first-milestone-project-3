@@ -1,19 +1,18 @@
 # THE BEATLES - FIRST MILESTONE PROJECT (CODE INSTITUTE)
 
 ## Overview of Project
-This page has been commissioned for 1960’s rock band “The Beatles”.  The interactive single scrolling is designed to<br/>
-    -attract new fans and engage existing fans,<br/>
+This page has been commissioned by the 1960’s rock band “The Beatles”.  The webpage is designed to<br/>
+    -attract new and engage existing fans,<br/>
     -inform fans through band bios,<br/>
-    -showcase the bands audio-visual content/media,<br/>
+    -showcases the bands audio-visual content/media,<br/>
     -provides a plug for their social media networks,<br/>
-    -eliminates third party by directly advertising upcoming shows and gigs,<br/>
+    -eliminates third party resellers by directly advertising upcoming shows and gigs,<br/>
     -and building a fan base by generating a mailing list.<br/>
 This serves a central location to establish the band online presence.
  
 
 ## User experience (UX) design 
-The following features are added to the website which is geared towards enhancing the users online experience through the 
-responsive web design.  This single scrolling webpage has sections for ease of use.
+The following features are added to the website which is geared towards enhancing the users online experience while maintaining the bands artisitc vision.  This single scrolling webpage has sections for ease of use.
 Header provides a static menu that gives fans access to -<br/>
     **Home** – Serves as the initial landing page. Fans are able to access the different areas of the webpage by<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.	clicking The Beatles logo which will direct to homepage,<br/>
