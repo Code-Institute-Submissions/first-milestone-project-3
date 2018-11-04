@@ -1,22 +1,22 @@
 # THE BEATLES - FIRST MILESTONE PROJECT (CODE INSTITUTE)
 
 ## Overview of Project
-This page has been commissioned by 1960’s rock band “The Beatles”.  This interactive single scrolling web page serves is designed to<br/>
--attract new fans and engage existing fans,<br/>
--inform fans through band bios,<br/>
--showcase the bands audio-visual content/media,<br/>
--provides a plug for their social media networks,<br/>
--eliminates third party by directly advertising upcoming shows and gigs,<br/>
--and building a fan base by generating a mailing list.<br/>
+This page has been commissioned for 1960’s rock band “The Beatles”.  The interactive single scrolling is designed to<br/>
+    -attract new fans and engage existing fans,<br/>
+    -inform fans through band bios,<br/>
+    -showcase the bands audio-visual content/media,<br/>
+    -provides a plug for their social media networks,<br/>
+    -eliminates third party by directly advertising upcoming shows and gigs,<br/>
+    -and building a fan base by generating a mailing list.<br/>
 This serves a central location to establish the band online presence.
  
 
 ## User experience (UX) design 
 The following features are added to the website which is geared towards enhancing the users online experience through the 
-bands artistic ……..  This single scrolling webpage has sections for ease of use.
+responsive web design.  This single scrolling webpage has sections for ease of use.
 Header provides a static menu that gives fans access to -<br/>
-    **Home** – Serves as the initial landing page. Fans are able to access the Webpage by<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.	clicking The Beatles logo direct to homepage,<br/>
+    **Home** – Serves as the initial landing page. Fans are able to access the different areas of the webpage by<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.	clicking The Beatles logo which will direct to homepage,<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.	clicking the fixed Navigation Menu to navigate through the page,<br/>
     **Fab Four** <br/>
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Provides fans with band bios, history, facts and concert photos.<br/>
@@ -65,7 +65,7 @@ Clicking the link below will direct you to dropbox<br/>
 
 #### Features
 -The website is responsive and conforms to different phone and computer browsers.<br/>
--The **Navigation Menu** provides a single scrollable feature with clickable link directing users to different sections.<br/>
+-The **Navigation Menu** provides a single scrollable feature with clickable link directing users to different ssections.<br/>
 Hovering over the links shows active status of the links. <br/>
 The Navigation Menu list collapses to a burger button when viewed on smaller devices.<br/><br/>
 -The **Fab Four** section displays text and photo content about the band. A **“Read More”** 
