@@ -57,13 +57,13 @@ The band manager responds to Nick to confirm the event details.
 Tupac find the **Twitter** and **Facebook** icons listed on the bottom of the webpage. 
 He is now part of the bands followers linked by social media and the websites subscription link.
 
-#### Wireframes for Desktop and mobile version<br/>
+# Wireframes for Desktop and mobile version<br/>
 Clicking the link below will direct you to dropbox<br/>
 [Wireframes for Desktop version](https://www.dropbox.com/s/jj3v94p7aaithal/Index_Page_Wireframe.jpg?dl=0)<br/>
 [Wireframes for Desktop version-About Us page](https://www.dropbox.com/s/pyuodgymoliqhtw/About_Us_Wireframe.jpg?dl=0)<br/>
 [Wireframe for Mobile Version](https://www.dropbox.com/s/dqckc62uodvmusw/Mobile_Devices_Wireframe.JPG?dl=0)<br/>
 
-#### Features
+# Features
 -The website is responsive and conforms to different phone and computer browsers.<br/>
 -The **Navigation Menu** provides a single scrollable feature with clickable link directing users to different ssections.<br/>
 Hovering over the links shows active status of the links. <br/>
@@ -86,7 +86,7 @@ the inquiry has been submitted once all the mandatory fields have been completed
 Strived to use semantic HTML5 elements to structure HTML code better.
 
 
-#### Technologies used includes:
+# Technologies used includes:
 **HTML5:**  to create structure of webpage<br/>
 **CSS3:**  to style webpage,Used external stylesheet,file located in assets/css/style.css <br/>
 **Bootstrap v 3.3.7**- For css styling, grid, tables and responsive behavior of controls<br/>
@@ -99,7 +99,7 @@ Strived to use semantic HTML5 elements to structure HTML code better.
 **Blur background images:** https://www.fotor.com/features/blur.html<br/>
 **Chrome Dev tools** for inspect elements for styling purpose and media queries<br/>
 
-#### Testing:<br/>
+# Testing:<br/>
 The single scrollable webpage is tested across the following browsers
 -	Google Chrome 	(Testing successfully met requirements)
 -	Firefox			(Testing successfully met requirements)
@@ -156,7 +156,7 @@ it directs you to the desired site.<br/>
 •   On small devices the social media and copyright are centered on the webpage.<br/>
 •   Confirmed the Back to the top link works by directing the user to the top of the webpage.<br/>
 
-#### Deployment <br/>
+# Deployment <br/>
 Project built in [Cloud9](https://ide.c9.io)
 To perfom the Deployment  I used Git and Github pages<br/>
 I perfomed the following steps<br/>
@@ -203,7 +203,7 @@ Video iframe have been taken from [YOUTUBE](https://www.youtube.com/thebeatles)<
 
 To create ReadMe file refered [README MARKUPS](https://help.github.com/articles/basic-writing-and-formatting-syntax/#styling-text)
 
-#### Acknowledgements
+# Acknowledgements
 Inspired fromthe Bootstrap Project "Whiskey Drop" and "Resume Project" from Code institute.Also took inspiration from 
 from [Shania Twain website](https://www.shaniatwain.com/now-tour-2018) and [Beatles website](https://www.thebeatles.com/)
 
