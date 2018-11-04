@@ -95,41 +95,52 @@ Strived to use semantic HTML5 elements to structure HTML code better.
 **Google Fonts:**  for additional font-family options https://fonts.google.com/<br/>
 **Font Awesome:** for social media icons and envelope icon  https://fontawesome.com/<br/>
 **Logo font:** design https://fontmeme.com/the-beatles-font/<br/>
-**Blur background images:**https://www.fotor.com/features/blur.html<br/>
+**Blur background images:** https://www.fotor.com/features/blur.html<br/>
 **Chrome Dev tools** for inspect elements for styling purpose and media queries<br/>
 
-Testing:
+#### Testing:<br/>
 The single scrollable webpage is tested across the following browsers
 -	Google Chrome 	(Testing successfully met requirements)
 -	Firefox			(Testing successfully met requirements)
 -	Internet Explorer	(Testing successfully met requirements)
 
 Testing scenarios
-1)	Landing Page(index.html) and Navigation bar:
-•	The landing image fits the browser with the static Navigation menu displayed on the top. I used the aspect ratio method to measure the width of the image as a percentage of the overall width of the page.ie.(height/width)*100. The landing is responsive and conforms to the browser size. This was tested in Google Chrome Developer tools responsive mode on Galaxy S5, Pixel 2, Pixel 2XL,iPhone 5/SE, iPhone 6/7/8, iPhone Plus 6/7/8, iPhone X, iPad, iPad Pro.
-•	The navigation bar collapses to a burger icon when viewed on medium and small devices. On hovering on each of the link the color changes to yellow this is done using pseudo-elements in CSS.
-•	Tested every link on the navigation bar and verified that I was directed to the appropriate sections
+1)	**Landing Page(index.html) and Navigation bar:**<br>
+•	The landing image fits the browser with the static Navigation menu displayed on the top. 
+I used the aspect ratio method to measure the width of the image as a percentage of the overall width of the 
+page.ie.(height/width)*100. The landing is responsive and conforms to the browser size. 
+This was tested in Google Chrome Developer tools responsive mode on 
+Galaxy S5, Pixel 2, Pixel 2XL,iPhone 5/SE, iPhone 6/7/8, iPhone Plus 6/7/8, iPhone X, iPad, iPad Pro.<br/>
+•	The navigation bar collapses to a burger icon when viewed on medium and small devices. 
+On hovering on each of the link the color changes to yellow this is done using pseudo-elements in CSS.<br/>
+•	Tested every link on the navigation bar and verified that I was directed to the appropriate sections<br/>
 
-2)	Fab Four Section
-•	Clicking the “Read More” link takes me to a new webpage.
-•	This responsive webpage has the same layout of header and navigation as the landing page.The header image is made responsive on Google Chrome Developer tools in responsive mode – Galaxy S5, Pixel 2,Pixel 2XL,iPhone 5/SE,iPhone 6/7,8, iPhone 6/7/8 Plus, iPhone X, iPad, and iPad Pro. This was achieved using VH (percent of view height) units.
-•	The right image is hidden when the section is resized on medium sized devices. This image is accessible only smaller and large devices.
+2)	**Fab Four Section**<br/>
+•	Clicking the “Read More” link takes me to a new webpage.<br/>
+•	This responsive webpage has the same layout of header and navigation as the landing page.
+The header image is made responsive on Google Chrome Developer tools in responsive mode – 
+Galaxy S5, Pixel 2,Pixel 2XL,iPhone 5/SE,iPhone 6/7,8, iPhone 6/7/8 Plus, iPhone X, iPad, and iPad Pro. 
+This was achieved using VH (percent of view height) units.<br/>
+•	The right image is hidden when the section is resized on medium sized devices. 
+This image is accessible only smaller and large devices.<br>
 
-3)	Audio and Video Section
-	Tested all audio and embedded video files and they play well
+3)	**Audio and Video Section**<br/>
+•	Tested all audio and embedded video files and they play well<br/>
 
-4)	Gigs Section
-	Tested the responsive behavior of this section.
-	Since the buttons have no post method implemented, clicking the buttons has no effect
+4)	**Gigs Section**<br/>
+•	Tested the responsive behavior of this section.<br/>
+•	Since the buttons have no post method implemented, clicking the buttons has no effect<br/>
 
-5) Get Updates Section
-•	Verified error message on the form when the mandatory fields were left blank. This also included the proper email format (xxx@xx.xxx)
-•	Validated the button text changed to Subscribed once the mandatory fields were updated.
+5) **Get Updates Section**<br/>
+•	Verified error message on the form when the mandatory fields were left blank. 
+This also included the proper email format (xxx@xx.xxx)<br/>
+•	Validated the button text changed to Subscribed once the mandatory fields were updated.<br/>
 
-6) Book us
-•	Tested the link to open up a modal.
-•	Verified error message on the form when the mandatory fields were left blank. This also included the proper email format (xxx@xx.xxx)
-•	Validated the activated button initiates a pop up acknowledgment window.
+6) **Book us**<br/>
+•	Tested the link to open up a modal.<br/>
+•	Verified error message on the form when the mandatory fields were left blank. 
+This also included the proper email format (xxx@xx.xxx)<br/>
+•	Validated the activated button initiates a pop up acknowledgment window.<br/>
 
 
 7) Footer- Social media and copyright
