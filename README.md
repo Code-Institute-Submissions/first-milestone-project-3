@@ -148,7 +148,7 @@ This also included the proper email format (xxx@xx.xxx)<br/>
 •	Verified error message on the form when the mandatory fields were left blank. 
 This also included the proper email format (xxx@xx.xxx)<br/>
 •	Validated the activated button initiates a pop up acknowledgment window.<br/>
-[Link to Test Case](https://www.dropbox.com/s/k6tkmkg074y0mj0/BookUs%20Test%20Case.jpg?dl=0)
+[Link to Book Us Test Case](https://www.dropbox.com/s/k6tkmkg074y0mj0/BookUs%20Test%20Case.jpg?dl=0)
 
 7) **Footer- Social media and copyright**<br/>
 •   Social media links - Clicked the social media icons i.e. Facebook, Twitter and Youtube and confirmed 
