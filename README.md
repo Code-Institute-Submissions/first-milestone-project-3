@@ -16,8 +16,8 @@ The following features are added to the website which is geared towards enhancin
 bands artistic ……..  This single scrolling webpage has sections for ease of use.
 Header provides a static menu that gives fans access to -<br/>
     **Home** – Serves as the initial landing page. Fans are able to access the Webpage by<br/>
-        1.	clicking The Beatles logo direct to homepage,<br/>
-        2.	clicking the fixed Navigation Menu to navigate through the page,<br/>
+    &nbsp;&nbsp;1.	clicking The Beatles logo direct to homepage,<br/>
+    &nbsp;&nbsp;2.	clicking the fixed Navigation Menu to navigate through the page,<br/>
     Fab Four <br/>
         Provides fans with band bios, history, facts and concert photos.<br/>
     A/V content <br/>
