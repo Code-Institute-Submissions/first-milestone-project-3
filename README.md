@@ -2,8 +2,7 @@
 
 ## Overview of Project
 #### This page has been commissioned by 1960’s rock band “The Beatles”.  This interactive single scrolling web page serves is designed to 
--  #### attract new fans and engage existing fans,
--  #### inform fans through band bios,
+-  #### attract new fans and engage existing fans,-  #### inform fans through band bios,
 -  #### showcase the bands audio-visual content/media,
 -  #### provides a plug for their social media networks,
 -  #### eliminates third party by directly advertising upcoming shows and gigs,
