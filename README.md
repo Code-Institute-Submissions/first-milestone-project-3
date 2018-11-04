@@ -167,6 +167,35 @@ where your local repository will be pushed.<br/>
 5)	On all subsequent chages I have Pushed  the changes in the local repository to GitHub.
         $git push origin master<br/>
         
-[Link to github pages:https://github.com/nadia-solution-tracker/first-milestone-project](https://github.com/nadia-solution-tracker/first-milestone-project)
-[Link to Final Deployment:https://nadia-solution-tracker.github.io/first-milestone-project/](https://nadia-solution-tracker.github.io/first-milestone-project/)
+[Link to github pages:https://github.com/nadia-solution-tracker/first-milestone-project](https://github.com/nadia-solution-tracker/first-milestone-project)<br/>
+[Link to Final Deployment:https://nadia-solution-tracker.github.io/first-milestone-project/](https://nadia-solution-tracker.github.io/first-milestone-project/)<br/>
+
+# Credits
+#### Content
+**FabFour Section and About us.html**- Content for this section is copied from <br/>
+http://www.thebestofthebest.com.au/the-artists/the-beatles/<br/>
+https://en.wikipedia.org/wiki/The_Beatles<br/>
+
+
+#### Code
+
+I created this project from the code learned throughout the course of UX design from the videos of Code Insitute.
+I also refered Bootstrap documentation https://getbootstrap.com/docs/3.3/css/ and
+W3schools https://www.w3schools.com/<br/>
+
+For responsive behavior on different on different screen sizes and browsers.
+I copied code from the following links
+Body width increases when modal is opened -<br/>
+issue resolved from https://github.com/jschr/bootstrap-modal/issues/64 
+Resizing-Embeds-To-Be-Responsive<br/>
+https://help.issuu.com/hc/en-us/articles/115000631608-Resizing-Embeds-To-Be-Responsive
+*Media*
+Image url for the section is copied from <br/>
+https://www.thebeatles.com/explore?type=story_photo_album<br/>
+Video iframe have been taken from youtube
+
+
+Acknowledgements
+
+
 
