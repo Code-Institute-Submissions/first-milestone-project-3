@@ -180,21 +180,20 @@ https://en.wikipedia.org/wiki/The_Beatles<br/>
 #### Code
 
 I created this project from the code learned throughout the course of UX design from the videos of Code Insitute.
-I also refered Bootstrap documentation https://getbootstrap.com/docs/3.3/css/ and
-W3schools https://www.w3schools.com/<br/>
+I also refered [Bootstrap documentation](https://getbootstrap.com/docs/3.3/css/) and
+[W3schools](https://www.w3schools.com/)<br/>
 
-For responsive behavior on different on different screen sizes and browsers.
-I copied code from the following links
-Body width increases when modal is opened -<br/>
-issue resolved from https://github.com/jschr/bootstrap-modal/issues/64 <br/>
-Resizing-Embeds-To-Be-Responsive<br/>
-https://help.issuu.com/hc/en-us/articles/115000631608-Resizing-Embeds-To-Be-Responsive<br>
+For responsive behavior on different on different screen sizes and browsers.<br/>
+[Resizing-Embeds-To-Be-Responsive](https://help.issuu.com/hc/en-us/articles/115000631608-Resizing-Embeds-To-Be-Responsive)<br>
+I copied code from the following links for bootstrap modal issues
+[Body width increases when modal is opened](https://github.com/jschr/bootstrap-modal/issues/64) <br/>
 
-Referred [Stack Overflow](https://stackoverflow.com/) occasionally
+
+Also referred [Stack Overflow](https://stackoverflow.com/) occasionally
+
 *Media*
-Image url for the section is copied from <br/>
-https://www.thebeatles.com/explore?type=story_photo_album<br/>
-Video iframe have been taken from youtube<br/>
+Image url for the section is copied from [The offical website](https://www.thebeatles.com/explore?type=story_photo_album)<br/>
+Video iframe have been taken from [YOUTUBE](https://www.youtube.com/thebeatles)<br/>
 
 To create ReadMe file refered [README MARKUPS]
 (https://help.github.com/articles/basic-writing-and-formatting-syntax/#styling-text)
