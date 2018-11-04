@@ -15,7 +15,7 @@ This serves a central location to establish the band online presence.
 The following features are added to the website which is geared towards enhancing the users online experience through the 
 bands artistic ……..  This single scrolling webpage has sections for ease of use.
 Header provides a static menu that gives fans access to -<br/>
-    Home – Serves as the initial landing page. Fans are able to access the Webpage by<br/>
+    ** Home ** – Serves as the initial landing page. Fans are able to access the Webpage by<br/>
         1.	clicking The Beatles logo direct to homepage,<br/>
         2.	clicking the fixed Navigation Menu to navigate through the page,<br/>
     Fab Four <br/>
