@@ -186,16 +186,20 @@ W3schools https://www.w3schools.com/<br/>
 For responsive behavior on different on different screen sizes and browsers.
 I copied code from the following links
 Body width increases when modal is opened -<br/>
-issue resolved from https://github.com/jschr/bootstrap-modal/issues/64 
+issue resolved from https://github.com/jschr/bootstrap-modal/issues/64 <br/>
 Resizing-Embeds-To-Be-Responsive<br/>
-https://help.issuu.com/hc/en-us/articles/115000631608-Resizing-Embeds-To-Be-Responsive
+https://help.issuu.com/hc/en-us/articles/115000631608-Resizing-Embeds-To-Be-Responsive<br>
+
+Referred [Stack Overflow](https://stackoverflow.com/) occasionally
 *Media*
 Image url for the section is copied from <br/>
 https://www.thebeatles.com/explore?type=story_photo_album<br/>
-Video iframe have been taken from youtube
+Video iframe have been taken from youtube<br/>
 
+To create ReadMe file refered [README MARKUPS]
+(https://help.github.com/articles/basic-writing-and-formatting-syntax/#styling-text)
 
-Acknowledgements
+#### Acknowledgements
 
 
 
