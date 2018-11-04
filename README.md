@@ -64,7 +64,7 @@ Clicking the link below will direct you to dropbox<br/>
 [Wireframe for Mobile Version](https://www.dropbox.com/s/dqckc62uodvmusw/Mobile_Devices_Wireframe.JPG?dl=0)<br/>
 
 #### Features
--The website is responsive and conforms to different phone and computer browsers. This has been validated on the W3C Markup Validation Service.<br/>
+-The website is responsive and conforms to different phone and computer browsers.<br/>
 -The **Navigation Menu** provides a single scrollable feature with clickable link directing users to different sections.<br/>
 Hovering over the links shows active status of the links. <br/>
 The Navigation Menu list collapses to a burger button when viewed on smaller devices.<br/><br/>
@@ -104,6 +104,11 @@ The single scrollable webpage is tested across the following browsers
 -	Google Chrome 	(Testing successfully met requirements)
 -	Firefox			(Testing successfully met requirements)
 -	Internet Explorer	(Testing successfully met requirements)
+
+**Testing Tools Used**
+- W3C CSS Validation Service (https://jigsaw.w3.org/css-validator/)
+-W3C Markup Validation Service (https://validator.w3.org/)
+
 
 Testing scenarios
 1)	**Landing Page(index.html) and Navigation bar:**<br>
@@ -152,6 +157,7 @@ it directs you to the desired site.<br/>
 •   Confirmed the Back to the top link works by directing the user to the top of the webpage.<br/>
 
 #### Deployment <br/>
+Project built in [Cloud9](https://ide.c9.io)
 To perfom the Deployment  I used Git and Github pages<br/>
 I perfomed the following steps<br/>
 1)	Initialised the local directory in my project as a git repository used the cloud9 terminal to perfrm this step<br/>
@@ -183,7 +189,7 @@ I created this project from the code learned throughout the course of UX design 
 I also refered [Bootstrap documentation](https://getbootstrap.com/docs/3.3/css/) and
 [W3schools](https://www.w3schools.com/)<br/>
 
-For responsive behavior on different on different screen sizes and browsers.<br/>
+For responsive behavior on different on different screen sizes and browsers.
 [Resizing-Embeds-To-Be-Responsive](https://help.issuu.com/hc/en-us/articles/115000631608-Resizing-Embeds-To-Be-Responsive)<br>
 I copied code from the following links for bootstrap modal issues
 [Body width increases when modal is opened](https://github.com/jschr/bootstrap-modal/issues/64) <br/>
@@ -195,10 +201,10 @@ Also referred [Stack Overflow](https://stackoverflow.com/) occasionally
 Image url for the section is copied from [The offical website](https://www.thebeatles.com/explore?type=story_photo_album)<br/>
 Video iframe have been taken from [YOUTUBE](https://www.youtube.com/thebeatles)<br/>
 
-To create ReadMe file refered [README MARKUPS]
-(https://help.github.com/articles/basic-writing-and-formatting-syntax/#styling-text)
+To create ReadMe file refered [README MARKUPS](https://help.github.com/articles/basic-writing-and-formatting-syntax/#styling-text)
 
 #### Acknowledgements
-
+Inspired fromthe Bootstrap Project "Whiskey Drop" and "Resume Project" from Code institute.Also took inspiration from 
+from [Shania Twain website](https://www.shaniatwain.com/now-tour-2018) and [Beatles website](https://www.thebeatles.com/)
 
 
