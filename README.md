@@ -106,7 +106,7 @@ The single scrollable webpage is tested across the following browsers
 -	Internet Explorer	(Testing successfully met requirements)
 
 **Testing Tools Used**
-- W3C CSS Validation Service (https://jigsaw.w3.org/css-validator/)
+- W3C CSS Validation Service (https://jigsaw.w3.org/css-validator/)<br/>
 -W3C Markup Validation Service (https://validator.w3.org/)
 
 
@@ -148,7 +148,7 @@ This also included the proper email format (xxx@xx.xxx)<br/>
 •	Verified error message on the form when the mandatory fields were left blank. 
 This also included the proper email format (xxx@xx.xxx)<br/>
 •	Validated the activated button initiates a pop up acknowledgment window.<br/>
-[Link to Test Case](Testing Get Updates)
+[Link to Test Case](https://www.dropbox.com/s/k6tkmkg074y0mj0/BookUs%20Test%20Case.jpg?dl=0)
 
 7) **Footer- Social media and copyright**<br/>
 •   Social media links - Clicked the social media icons i.e. Facebook, Twitter and Youtube and confirmed 
@@ -204,7 +204,7 @@ Video iframe have been taken from [YOUTUBE](https://www.youtube.com/thebeatles)<
 To create ReadMe file refered [README MARKUPS](https://help.github.com/articles/basic-writing-and-formatting-syntax/#styling-text)
 
 # Acknowledgements
-Inspired fromthe Bootstrap Project "Whiskey Drop" and "Resume Project" from Code institute.Also took inspiration from 
+Inspired fromthe Bootstrap Project "Whiskey Drop" and "Resume Project" from Code institute.Also took inspiration
 from [Shania Twain website](https://www.shaniatwain.com/now-tour-2018) and [Beatles website](https://www.thebeatles.com/)
 
 
