@@ -67,7 +67,7 @@ Clicking the link below will direct you to dropbox<br/>
 - The **Navigation Menu** provides a single scrollable feature with clickable link directing users to different sections.<br/>
 Hovering over the links shows active status of the links. <br/>
 The Navigation Menu list collapses to a burger button when viewed on smaller devices.<br/><br/>
--The **Fab Four** section displays text and photo content about the band. A **“Read More”** 
+-The **Fab Four** section displays text and photo content about the band. <br/>A **“Read More”** 
 link will display a webpage with new images and more information about the band.<br/>
 Only the images displayed on the Fab Four have their sources (SRC) linked to other website URL’s.<br/><br/>
 -The bands audio (.wav) and all other image (.jpg) files have been downloaded to assets/audios and 
