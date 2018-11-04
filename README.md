@@ -1,19 +1,19 @@
 # THE BEATLES - FIRST MILESTONE PROJECT (CODE INSTITUTE)
 
 ## Overview of Project
-#### This page has been commissioned by 1960’s rock band “The Beatles”.  This interactive single scrolling web page serves is designed to 
--  #### attract new fans and engage existing fans,-  #### inform fans through band bios,
--  #### showcase the bands audio-visual content/media,
--  #### provides a plug for their social media networks,
--  #### eliminates third party by directly advertising upcoming shows and gigs,
--  #### and building a fan base by generating a mailing list.
-#### This serves a central location to establish the band online presence.
+This page has been commissioned by 1960’s rock band “The Beatles”.  This interactive single scrolling web page serves is designed to 
+-attract new fans and engage existing fans,-  #### inform fans through band bios,
+-showcase the bands audio-visual content/media,
+-provides a plug for their social media networks,
+-eliminates third party by directly advertising upcoming shows and gigs,
+-and building a fan base by generating a mailing list.
+This serves a central location to establish the band online presence.
  
 
 ## User experience (UX) design 
-#### The following features are added to the website which is geared towards enhancing the users online experience through the bands artistic ……..  This single scrolling webpage has sections for ease of use.
-#### Header provides a static menu that gives fans access to -
-#### Home – Serves as the initial landing page. Fans are able to access the home section by
+The following features are added to the website which is geared towards enhancing the users online experience through the bands artistic ……..  This single scrolling webpage has sections for ease of use.
+Header provides a static menu that gives fans access to -
+Home – Serves as the initial landing page. Fans are able to access the home section by
 1.	clicking The Beatles logo,
 2.	clicking the fixed Navigation Menu and selecting Home,
 3.	or by clicking Back to the top
