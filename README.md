@@ -57,3 +57,23 @@ The band manager responds to Nick to confirm the event details.
 Tupac find the **Twitter** and **Facebook** icons listed on the bottom of the webpage. 
 He is now part of the bands followers linked by social media and the websites subscription link.
 
+#### Wireframes for Desktop and mobile version
+Clicking the link below will direct you to dropbox
+[Wireframes for Desktop and mobile version](https://www.dropbox.com/sh/kb2c7s5xm767xxi/AADAbJRUGHGs8sJOXAcoX8BPa?dl=0)
+
+
+#### Features
+*The website is responsive and conforms to different phone and computer browsers. This has been validated on the W3C Markup Validation Service.<br/>
+*The **Navigation Menu** provides a single scrollable feature with clickable link directing users to different sections. 
+Hovering over the links shows active status of the links. 
+The Navigation Menu list collapses to a burger button when viewed on smaller devices.
+*The Fab Four section displays text and photo content about the band. A “Read More” link will display a webpage with new images and more information about the band.
+Only the images displayed on the Fab Four have their sources (SRC) linked to other website URL’s.
+*The bands audio (.wav) and all other image (.jpg) files have been downloaded to assets/audios and the assets/images folder respectively. The Audio controls width resizes to different devices.
+*Video section displays embedded (iframe) videos from YouTube
+*Gigs section outlines a tabular display of upcoming events and ticket status indicator. The display conforms to different webpage sizes. 
+*Get updates section provides a fan subscription option. Java script was used to change the button text to Subscribed once the user mandatory fields and clicks the button to complete the process.
+*The footer displays social media connectors as clickable icons that can be directed to the bands social networks.
+*Clicking the Book Us link in the navigation menu activates an input form on a pop up (Bootstrap modal) window.
+Features include a datetime control, a drop down option for specific fields and pop-up windows confirming the inquiry has been submitted once all the mandatory fields have been completed.
+
