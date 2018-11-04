@@ -9,8 +9,8 @@ This page has been commissioned by the 1960’s rock band “The Beatles”.  Th
     -eliminates third party resellers by directly advertising upcoming shows and gigs,<br/>
     -and building a fan base by generating a mailing list.<br/>
 This serves a central location to establish the band online presence.
- 
-![alt text](https://www.dropbox.com/s/gk3vmrme6p5qiaw/ScreenShot.JPG?dl=0)
+
+![Image description](https://www.dropbox.com/s/gk3vmrme6p5qiaw/ScreenShot.JPG?dl=0)
 ## User experience (UX) design 
 The following features are added to the website which is geared towards enhancing the users online experience while maintaining the bands artisitc vision.  This single scrolling webpage has sections for ease of use.
 Header provides a static menu that gives fans access to -<br/>
