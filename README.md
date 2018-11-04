@@ -151,3 +151,22 @@ it directs you to the desired site.<br/>
 •   On small devices the social media and copyright are centered on the webpage.<br/>
 •   Confirmed the Back to the top link works by directing the user to the top of the webpage.<br/>
 
+#### Deployment <br/>
+To perfom the Deployment  I used Git and Github pages<br/>
+I perfomed the following steps<br/>
+1)	Initialised the local directory in my project as a git repository used the cloud9 terminal to perfrm this step<br/>
+        $git init<br/>
+2)	Added the files in the local repository created. Aand staged them for commit
+        $git add .<br/>
+3)	Commited the files that I have staged in the local repository.<br/>
+        $git commit –m ”Initial commit”<br/>
+This step is perfomed for any changes I have done to sections in webpages and style sheets as 
+well as the image,audio and video folder.<br/>
+4)	Created a new repository in Github and in the terminal, added the URL for the remote repository 
+where your local repository will be pushed.<br/>
+5)	On all subsequent chages I have Pushed  the changes in the local repository to GitHub.
+        $git push origin master<br/>
+        
+[Link to github pages:https://github.com/nadia-solution-tracker/first-milestone-project](https://github.com/nadia-solution-tracker/first-milestone-project)
+[Link to Final Deployment:https://nadia-solution-tracker.github.io/first-milestone-project/](https://nadia-solution-tracker.github.io/first-milestone-project/)
+
