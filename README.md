@@ -13,21 +13,21 @@ This serves a central location to establish the band online presence.
 
 ## User experience (UX) design 
 The following features are added to the website which is geared towards enhancing the users online experience while maintaining the bands artisitc vision.  This single scrolling webpage has sections for ease of use.
-Header provides a static menu that gives fans access to -<br/>
-    **Home** – Serves as the initial landing page. Fans are able to access the different areas of the webpage by<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.	clicking The Beatles logo which will direct to homepage,<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.	clicking the fixed Navigation Menu to navigate through the page,<br/>
+The header provides a static menu that gives fans access to -<br/>
+    **Home** – which serves as the initial landing page.Fans are able to access the home section by<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.	clicking The Beatles logo,<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.	clicking Home on the fixed Navigation Menu<br/>
     **Fab Four** <br/>
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Provides fans with band bios, history, facts and concert photos.<br/>
     **Audio/Video content** <br/>
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Audio content showcases the bands music<br/>
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Video links from their youtube channel celebrating the bands performances<br/>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Audio section showcases the bands audio tracks<br/>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- while the Video section is linked to the bands youtube channel<br/>
     **Gigs** <br/>
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Announce dates of upcoming shows and provides a venue to purchase the tickets directly from the site.<br/>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Announces upcoming shows and provides a venue to purchase the tickets directly from the site. It also gives a fans visual summary of available tickets<br/>
     **Get Updates** <br/>
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;enables fans to sign up for the band’s latest updates.<br/>
     **Book Us**<br/>
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Book the band for an upcoming event or party<br/>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Allows the fans to connect directly the band manager for an upcoming private<br/>
     **Footer** provides access to <br/>
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-The bands Social media stream<br/>
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -and a link to automatically take the user to the top of the webpage. <br/>
@@ -35,26 +35,26 @@ Header provides a static menu that gives fans access to -<br/>
 
 # User stories
 
- **“Rudy just heard The Beatles and wants to know about the band”**
+ **“Rudy just heard The Beatles and wants to know about the band”**<br/>
 Rudy clicks the **Fab Four** link which welcomes him to a condensed introduction. He has the option to read the extended version,
 along with facts and history by clicking **Read More** link. 
 
-**“Cathy is mesmerized with one of The Beatles song and is curious to see if they have additional music”**
+**“Cathy is mesmerized with one of The Beatles song and is curious to see if they have additional music”**<br/>
 Cathy clicks the **Audio/Video links** to listen and watch The Beatles music compilation.
 
-**“Tony wants to book tickets for the upcoming The Beatles tour”**
+**“Tony wants to book tickets for the upcoming tour”**<br/>
 Tony is a fan of the band and has been streaming the Audio/Visual content from the website. 
 He clicks the **Gigs** link to view upcoming events and purchase tickets.
-He also subscribes by clicking **Get Updates**. This provides a fan centric experience.  
+He also clicks **Get Updates** to join the bands subscription list . This provides a fan centric experience.  
 
-**“Nick will be proposing to his fiancé and is curious to see if he can book The Beatles to make event a memorable one”**
+**“Nick will be proposing to his fiancé and is curious to see if he can book The Beatles to make the event a memorable one”**<br/>
 Nick clicks the **Book Us** link and completes the questionnaire pop-up window. 
 This questionnaire collects information like the event date, location and time. 
 The band manager responds to Nick to confirm the event details.
 
-**“TuPac is new to social media and is curious if The Beatles have an account”**
+**“TuPac is new to social media and is curious if The Beatles have an account”**<br/>
 Tupac find the **Twitter** and **Facebook** icons listed on the bottom of the webpage. 
-He is now part of the bands followers linked by social media and the websites subscription link.
+He is now part of the bands followers linked via social media.
 
 # Wireframes for Desktop and mobile version<br/>
 Clicking the link below will direct you to dropbox<br/>
@@ -63,8 +63,8 @@ Clicking the link below will direct you to dropbox<br/>
 [Wireframe for Mobile Version](https://www.dropbox.com/s/dqckc62uodvmusw/Mobile_Devices_Wireframe.JPG?dl=0)<br/>
 
 # Features
--The website is responsive and conforms to different phone and computer browsers.<br/>
--The **Navigation Menu** provides a single scrollable feature with clickable link directing users to different ssections.<br/>
+- The website is responsive and conforms to different phone and computer browsers.<br/>
+- The **Navigation Menu** provides a single scrollable feature with clickable link directing users to different sections.<br/>
 Hovering over the links shows active status of the links. <br/>
 The Navigation Menu list collapses to a burger button when viewed on smaller devices.<br/><br/>
 -The **Fab Four** section displays text and photo content about the band. A **“Read More”** 
@@ -78,7 +78,7 @@ The display conforms to different webpage sizes. <br/><br/>
 -**Get updates section** provides a fan subscription option. Java script was used to change the 
 button text to Subscribed once the user mandatory fields and clicks the button to complete the process.<br/><br/>
 -The **Footer** displays social media connectors as clickable icons that can be directed to the bands social networks.<br/><br/>
--Clicking the **Book Us** link in the navigation menu activates an input form on a pop up (Bootstrap modal) window.
+-Clicking the **Book Us** link in the navigation menu activates a pop-up (Bootstrap modal) input form.
 Features include a datetime control, a drop down option for specific fields and pop-up windows confirming
 the inquiry has been submitted once all the mandatory fields have been completed.<br/>
 
