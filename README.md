@@ -23,7 +23,7 @@ The header provides a static menu that gives fans access to -<br/>
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Audio section showcases the bands audio tracks<br/>
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- While the Video section is linked to the bands youtube channel<br/>
     **Gigs** <br/>
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Announces upcoming shows and provides a venue to purchase the tickets directly from the site. 
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Announces upcoming shows and provides a venue to purchase the tickets directly from the site.<br/> 
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-It also gives a fans visual summary of available tickets<br/>
     **Get Updates** <br/>
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enables fans to sign up for the band’s latest updates.<br/>
@@ -105,9 +105,9 @@ The single scrollable webpage is tested across the following browsers
 -	Firefox			(Testing successfully met requirements)
 -	Internet Explorer	(Testing successfully met requirements)
 
-**Testing Tools Used**
-•W3C CSS Validation Service (https://jigsaw.w3.org/css-validator/)<br/>
-•W3C Markup Validation Service (https://validator.w3.org/)
+**Testing Tools Used**<br/>
+• W3C CSS Validation Service (https://jigsaw.w3.org/css-validator/)<br/>
+• W3C Markup Validation Service (https://validator.w3.org/)
 
 
 Testing scenarios
