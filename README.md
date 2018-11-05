@@ -172,7 +172,7 @@ well as the image,audio and video folder.<br/>
 where your local repository will be pushed.<br/>
 5)	On major changes I have pushed  the changes in the local repository to GitHub.
         $git push origin master<br/>
-        
+
 [Link to github pages:https://github.com/nadia-solution-tracker/first-milestone-project](https://github.com/nadia-solution-tracker/first-milestone-project)<br/>
 [Link to Final Deployment:https://nadia-solution-tracker.github.io/first-milestone-project/](https://nadia-solution-tracker.github.io/first-milestone-project/)<br/>
 
@@ -195,7 +195,7 @@ For responsive behavior on different on different screen sizes and browsers.
 [Resizing-Embeds-To-Be-Responsive](https://help.issuu.com/hc/en-us/articles/115000631608-Resizing-Embeds-To-Be-Responsive)<br>
 I copied code from the following links for bootstrap modal issues
 [Body width increases when modal is opened](https://github.com/jschr/bootstrap-modal/issues/64) <br/>
-HTML5/Bootsrap tables used in code while designing was channged to grid layout as it was not very responsive and showed a scrollbar.
+HTML5/Bootstrap tables used in code while designing was channged to grid layout as it was not very responsive and showed a scrollbar.
 
 
 Also referred [Stack Overflow](https://stackoverflow.com/) occasionally
