@@ -157,7 +157,7 @@ it directs you to the desired site.<br/>
 •   Confirmed the Back to the top link works by directing the user to the top of the webpage.<br/>
 
 # Deployment <br/>
-Project built on [Cloud9](https://ide.c9.io)<br/>
+Project built on [Cloud9](https://ide.c9.io)<br/><br/>
 To perfom the Deployment  I used Git and Github pages<br/>
 I perfomed the following steps<br/>
 1)	Initialised the local directory in my project as a git repository used the cloud9 terminal to perfrm this step<br/>
@@ -170,7 +170,7 @@ This step is perfomed for any changes I have done to sections in webpages and st
 well as the image,audio and video folder.<br/>
 4)	Created a new repository in Github and in the terminal, added the URL for the remote repository 
 where your local repository will be pushed.<br/>
-5)	On all subsequent chages I have Pushed  the changes in the local repository to GitHub.
+5)	On major changes I have pushed  the changes in the local repository to GitHub.
         $git push origin master<br/>
         
 [Link to github pages:https://github.com/nadia-solution-tracker/first-milestone-project](https://github.com/nadia-solution-tracker/first-milestone-project)<br/>
@@ -189,10 +189,13 @@ I created this project from the code learned throughout the course of UX design 
 I also refered [Bootstrap documentation](https://getbootstrap.com/docs/3.3/css/) and
 [W3schools](https://www.w3schools.com/)<br/>
 
+
+#### Bugs and Solutions
 For responsive behavior on different on different screen sizes and browsers.
 [Resizing-Embeds-To-Be-Responsive](https://help.issuu.com/hc/en-us/articles/115000631608-Resizing-Embeds-To-Be-Responsive)<br>
 I copied code from the following links for bootstrap modal issues
 [Body width increases when modal is opened](https://github.com/jschr/bootstrap-modal/issues/64) <br/>
+HTML5/Bootsrap tables used in code while designing was channged to grid layout as it was not very responsive and showed a scrollbar.
 
 
 Also referred [Stack Overflow](https://stackoverflow.com/) occasionally
