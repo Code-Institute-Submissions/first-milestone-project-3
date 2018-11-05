@@ -2,17 +2,17 @@
 
 ## Overview of Project
 This page has been commissioned by the 1960’s rock band “The Beatles”.  The webpage is designed to<br/>
-    -attract new and engage existing fans,<br/>
-    -inform fans through band bios,<br/>
-    -showcases the bands audio-visual content/media,<br/>
-    -provides a plug for their social media networks,<br/>
-    -eliminates third party resellers by directly advertising upcoming shows and gigs,<br/>
-    -and building a fan base by generating a mailing list.<br/>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-attract new and engage existing fans,<br/>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-inform fans through band bios,<br/>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-showcases the bands audio-visual content/media,<br/>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-provides a plug for their social media networks,<br/>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-eliminates third party resellers by directly advertising upcoming shows and gigs,<br/>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-and building a fan base by generating a mailing list.<br/><br/>
 This serves a central location to establish the band online presence.
-![IMAGE](assets/images/ScreenShot.JPG)
+![IMAGE](assets/images/ScreenShot.JPG)<br/><br/>
 
 ## User experience (UX) design 
-The following features are added to the website which is geared towards enhancing the users online experience while maintaining the bands artisitc vision.  This single scrolling webpage has sections for ease of use.
+The following features are added to the website which is geared towards enhancing the users online experience while maintaining the bands artistic vision.  This single scrolling webpage has sections for ease of use.
 The header provides a static menu that gives fans access to -<br/>
     **Home** – which serves as the initial landing page.Fans are able to access the home section by<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.	clicking The Beatles logo,<br/>
@@ -21,16 +21,17 @@ The header provides a static menu that gives fans access to -<br/>
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Provides fans with band bios, history, facts and concert photos.<br/>
     **Audio/Video content** <br/>
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Audio section showcases the bands audio tracks<br/>
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- while the Video section is linked to the bands youtube channel<br/>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- While the Video section is linked to the bands youtube channel<br/>
     **Gigs** <br/>
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Announces upcoming shows and provides a venue to purchase the tickets directly from the site. It also gives a fans visual summary of available tickets<br/>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Announces upcoming shows and provides a venue to purchase the tickets directly from the site. 
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-It also gives a fans visual summary of available tickets<br/>
     **Get Updates** <br/>
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;enables fans to sign up for the band’s latest updates.<br/>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enables fans to sign up for the band’s latest updates.<br/>
     **Book Us**<br/>
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Allows the fans to connect directly the band manager for an upcoming private<br/>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Allows the fans to connect directly the band manager for an upcoming private event or occasion<br/>
     **Footer** provides access to <br/>
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-The bands Social media stream<br/>
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -and a link to automatically take the user to the top of the webpage. <br/>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-And a link to automatically take the user to the top of the webpage. <br/>
 	
 
 # User stories
@@ -65,22 +66,22 @@ Clicking the link below will direct you to dropbox<br/>
 # Features
 The website is responsive and conforms to different phone and computer browsers.<br/>
 •  The **Navigation Menu** provides a single scrollable feature with clickable link directing users to different sections.<br/>
-Hovering over the links shows active status of the links. <br/>
-The Navigation Menu list collapses to a burger button when viewed on smaller devices.<br/><br/>
-• The **Fab Four** section displays text and photo content about the band. <br/>A **“Read More”** 
+&nbsp;&nbsp;&nbsp;Hovering over the links shows active status of the links. <br/>
+&nbsp;&nbsp;&nbsp;The Navigation Menu list collapses to a burger button when viewed on smaller devices.<br/><br/>
+• The **Fab Four** section displays text and photo content about the band. <br/>&nbsp;&nbsp;&nbsp;A **“Read More”** 
 link will display a webpage with new images and more information about the band.<br/>
-Only the images displayed on the Fab Four have their sources (SRC) linked to other website URL’s.<br/><br/>
+&nbsp;&nbsp;&nbsp;Only the images displayed on the Fab Four have their sources (SRC) linked to other website URL’s.<br/><br/>
 • The bands audio (.wav) and all other image (.jpg) files have been downloaded to assets/audios and 
-the assets/images folder respectively. The Audio controls width resizes to different devices.<br/><br/>
+the assets/images folder &nbsp;&nbsp;&nbsp;respectively. The Audio controls width resizes to different devices.<br/><br/>
 • **Video section** displays embedded (iframe) videos from YouTube<br/><br/>
 • **Gigs section** outlines a tabular display of upcoming events and ticket status indicator. 
-The display conforms to different webpage sizes. <br/><br/>
+The display conforms to different &nbsp;&nbsp;&nbsp;webpage sizes. <br/><br/>
 • **Get updates section** provides a fan subscription option. Java script was used to change the 
-button text to Subscribed once the user mandatory fields and clicks the button to complete the process.<br/><br/>
+button text to Subscribed once the &nbsp;&nbsp;&nbsp;user mandatory fields and clicks the button to complete the process.<br/><br/>
 • The **Footer** displays social media connectors as clickable icons that can be directed to the bands social networks.<br/><br/>
 • Clicking the **Book Us** link in the navigation menu activates a pop-up (Bootstrap modal) input form.
-Features include a datetime control, a drop down option for specific fields and pop-up windows confirming
-the inquiry has been submitted once all the mandatory fields have been completed.<br/>
+Features include a &nbsp;&nbsp;&nbsp;datetime control, a drop down option for specific fields and pop-up windows confirming
+the inquiry has been submitted once &nbsp;&nbsp;&nbsp;all the mandatory fields have been completed.<br/>
 
 Strived to use semantic HTML5 elements to structure HTML code better.
 
@@ -105,8 +106,8 @@ The single scrollable webpage is tested across the following browsers
 -	Internet Explorer	(Testing successfully met requirements)
 
 **Testing Tools Used**
-- W3C CSS Validation Service (https://jigsaw.w3.org/css-validator/)<br/>
--W3C Markup Validation Service (https://validator.w3.org/)
+•W3C CSS Validation Service (https://jigsaw.w3.org/css-validator/)<br/>
+•W3C Markup Validation Service (https://validator.w3.org/)
 
 
 Testing scenarios
