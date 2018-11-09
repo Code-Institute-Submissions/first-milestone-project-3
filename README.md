@@ -4,7 +4,7 @@
 This page has been commissioned by the 1960’s rock band “The Beatles”.  The webpage is designed to<br/>
        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-attract new and engage existing fans,<br/>
        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-inform fans through band bios,<br/>
-       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-showcases the bands audio-visual content/media,<br/>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-showcases the bands audio-visual content and media,<br/>
        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-provides a plug for their social media networks,<br/>
        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-eliminates third party resellers by directly advertising upcoming shows and gigs,<br/>
        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-and building a fan base by generating a mailing list.<br/><br/>
@@ -21,14 +21,14 @@ The header provides a static menu that gives fans access to -<br/>
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Provides fans with band bios, history, facts and concert photos.<br/>
     **Audio/Video content** <br/>
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Audio section showcases the bands audio tracks<br/>
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- While the Video section is linked to the bands youtube channel<br/>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- While the Video section is linked to the bands YouTube channel<br/>
     **Gigs** <br/>
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Announces upcoming shows and provides a venue to purchase the tickets directly from the site.<br/> 
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-It also gives a fans visual summary of available tickets<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-It also gives fans a visual summary of available tickets<br/>
     **Get Updates** <br/>
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enables fans to sign up for the band’s latest updates.<br/>
     **Book Us**<br/>
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Allows the fans to connect directly the band manager for an upcoming private event or occasion<br/>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Allows the fans connect directly to the band manager for an upcoming private event or occasion<br/>
     **Footer** provides access to <br/>
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-The bands Social media stream<br/>
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-And a link to automatically take the user to the top of the webpage. <br/>
@@ -36,7 +36,7 @@ The header provides a static menu that gives fans access to -<br/>
 
 # User stories
 
- **“Rudy just heard The Beatles and wants to know about the band”**<br/>
+ **“Rudy just heard "The Beatles" and wants to know about the band”**<br/>
 Rudy clicks the **Fab Four** link which welcomes him to a condensed introduction. He has the option to read the extended version,
 along with facts and history by clicking **Read More** link. 
 
@@ -54,18 +54,19 @@ This questionnaire collects information like the event date, location and time.
 The band manager responds to Nick to confirm the event details.
 
 **“TuPac is new to social media and is curious if The Beatles have an account”**<br/>
-Tupac find the **Twitter** and **Facebook** icons listed on the bottom of the webpage. 
-He is now part of the bands followers linked via social media.
+Tupac finds the **Twitter** and **Facebook** icons listed on the bottom of the webpage. 
+He is now a part of the bands followers linked via social media.
 
 # Wireframes for Desktop and mobile version<br/>
-Clicking the link below will direct you to dropbox<br/>
+Clicking the link below will direct you to Dropbox<br/>
 [Wireframes for Desktop version](https://www.dropbox.com/s/jj3v94p7aaithal/Index_Page_Wireframe.jpg?dl=0)<br/>
 [Wireframes for Desktop version-About Us page](https://www.dropbox.com/s/pyuodgymoliqhtw/About_Us_Wireframe.jpg?dl=0)<br/>
 [Wireframe for Mobile Version](https://www.dropbox.com/s/dqckc62uodvmusw/Mobile_Devices_Wireframe.JPG?dl=0)<br/>
 
 # Features
-The website is responsive and conforms to different phone and computer browsers.<br/>
-•  The **Navigation Menu** provides a single scrollable feature with clickable link directing users to different sections.<br/>
+The website is responsive and conforms to different phones and browsers.<br/>
+•  The **Landing Page** provides a single scrollable feature.
+•  The **Navigation Menu** provides a inline list of clickable links directing users to different sections on the webpage.<br/>
 &nbsp;&nbsp;&nbsp;Hovering over the links shows active status of the links. <br/>
 &nbsp;&nbsp;&nbsp;The Navigation Menu list collapses to a burger button when viewed on smaller devices.<br/><br/>
 • The **Fab Four** section displays text and photo content about the band. <br/>&nbsp;&nbsp;&nbsp;A **“Read More”** 
@@ -73,14 +74,14 @@ link will display a webpage with new images and more information about the band.
 &nbsp;&nbsp;&nbsp;Only the images displayed on the Fab Four have their sources (SRC) linked to other website URL’s.<br/><br/>
 • The bands audio (.wav) and all other image (.jpg) files have been downloaded to assets/audios and 
 the assets/images folder &nbsp;&nbsp;&nbsp;respectively. The Audio controls width resizes to different devices.<br/><br/>
-• **Video section** displays embedded (iframe) videos from YouTube<br/><br/>
+• **Video section** displays embedded (iframe) videos from the bands YouTube channel<br/><br/>
 • **Gigs section** outlines a tabular display of upcoming events and ticket status indicator. 
 The display conforms to different &nbsp;&nbsp;&nbsp;webpage sizes. <br/><br/>
-• **Get updates section** provides a fan subscription option. Java script was used to change the 
-button text to Subscribed once the &nbsp;&nbsp;&nbsp;user mandatory fields and clicks the button to complete the process.<br/><br/>
+• **Get updates section** provides a fan subscription option. Java script has been used to change the 
+button text to Subscribed once the &nbsp;&nbsp;&nbsp;user enters all mandatory fields and clicks the button to complete the process.<br/><br/>
 • The **Footer** displays social media connectors as clickable icons that can be directed to the bands social networks.<br/><br/>
 • Clicking the **Book Us** link in the navigation menu activates a pop-up (Bootstrap modal) input form.
-Features include a &nbsp;&nbsp;&nbsp;datetime control, a drop down option for specific fields and pop-up windows confirming
+Features include a &nbsp;&nbsp;&nbsp;datetime control, a drop down option for specific fields and pop-up window confirming
 the inquiry has been submitted once &nbsp;&nbsp;&nbsp;all the mandatory fields have been completed.<br/>
 
 Strived to use semantic HTML5 elements to structure HTML code better.
@@ -107,7 +108,11 @@ The single scrollable webpage is tested across the following browsers
 
 **Testing Tools Used**<br/>
 • W3C CSS Validation Service (https://jigsaw.w3.org/css-validator/)<br/>
-• W3C Markup Validation Service (https://validator.w3.org/)
+• W3C Markup Validation Service (https://validator.w3.org/)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Received the following 
+Warning: The datetime-local input type is not supported in all browsers. Please be sure to test, and consider using a polyfill.
+However the website works well on all browsers mentioned above.<br/>
+• Mobile Friendly Testing Tool(https://search.google.com/test/mobile-friendly)
 
 
 Testing scenarios
@@ -139,14 +144,14 @@ This image is accessible only smaller and large devices.<br>
 
 5) **Get Updates Section**<br/>
 •	Verified error message on the form when the mandatory fields were left blank. 
-This also included the proper email format (xxx@xx.xxx) in testing.<br/>
+This also included the proper email format (xxx@xx.xxx) on testing.<br/>
 •	Validated the button text changed to Subscribed once the mandatory fields were updated.<br/>
 [Link to Get Update Test Case](https://www.dropbox.com/s/6v9h62ztd4b22vz/TestCase%20for%20Get%20Upates%20Section.jpg?dl=0)
 
 6) **Book us**<br/>
 •	Tested the link to open up a modal.<br/>
 •	Verified error message on the form when the mandatory fields were left blank. 
-This also included the proper email format (xxx@xx.xxx) in testing.<br/>
+This also included the proper email format (xxx@xx.xxx) on testing.<br/>
 •	Validated the activated button initiates a pop up acknowledgment window.<br/>
 [Link to Book Us Test Case](https://www.dropbox.com/s/k6tkmkg074y0mj0/BookUs%20Test%20Case.jpg?dl=0)
 
@@ -157,7 +162,7 @@ it directs you to the desired site.<br/>
 •   Confirmed the Back to the top link works by directing the user to the top of the webpage.<br/>
 
 # Deployment <br/>
-Project built on [Cloud9](https://ide.c9.io)<br/><br/>
+Project is built on [Cloud9](https://ide.c9.io)<br/><br/>
 To perfom the Deployment  I used Git and Github pages<br/>
 I perfomed the following steps<br/>
 1)	Initialised the local directory in my project as a git repository used the cloud9 terminal to perfrm this step<br/>
@@ -172,6 +177,11 @@ well as the image,audio and video folder.<br/>
 where your local repository will be pushed.<br/>
 5)	On major changes I have pushed  the changes in the local repository to GitHub.
         $git push origin master<br/>
+        
+        
+On Github <br/>
+1) Clicked Settings of the repository hosting the project and generated the external link as below
+
 
 [Link to github pages:https://github.com/nadia-solution-tracker/first-milestone-project](https://github.com/nadia-solution-tracker/first-milestone-project)<br/>
 [Link to Final Deployment:https://nadia-solution-tracker.github.io/first-milestone-project/](https://nadia-solution-tracker.github.io/first-milestone-project/)<br/>
@@ -185,7 +195,7 @@ https://en.wikipedia.org/wiki/The_Beatles<br/>
 
 #### Code
 
-I created this project from the code learned throughout the course of UX design from the videos of Code Insitute.
+I created this project from the codes learnt throughout the course of UX design from the videos of Code Insitute.
 I also refered [Bootstrap documentation](https://getbootstrap.com/docs/3.3/css/) and
 [W3schools](https://www.w3schools.com/)<br/>
 
@@ -207,7 +217,9 @@ Video iframe have been taken from [YOUTUBE](https://www.youtube.com/thebeatles)<
 To create ReadMe file refered [README MARKUPS](https://help.github.com/articles/basic-writing-and-formatting-syntax/#styling-text)
 
 # Acknowledgements
-Inspired from the Bootstrap Project "Whiskey Drop" and "Resume Project" from Code institute.Also took inspiration
-from [Shania Twain website](https://www.shaniatwain.com/now-tour-2018) and [Beatles website](https://www.thebeatles.com/)
+I would extend my sincere thanks to my mentor for showing different ways by which my project would response better,However all the work was 
+done by me with references made to links as mentioned in "Credits" and refering "Code Institute UX Design" videos.I also got
+inspired from the Bootstrap Project "Whiskey Drop" and "Resume Project" from Code institute as well fom [Shania Twain website]
+(https://www.shaniatwain.com/now-tour-2018) and [Beatles website](https://www.thebeatles.com/)
 
 
