@@ -39,18 +39,18 @@ The following features are added to the website which is geared towards enhancin
 Rudy clicks the **Fab Four** link which welcomes him to a condensed introduction. He has the option to read the extended version,
 along with facts and history by clicking **Read More** link. 
 
-&nbsp;&nbsp;**“Cathy is mesmerized with one of The Beatles song and is curious to see if they have additional music”**<br/>
-&nbsp;&nbsp;Cathy clicks the **Audio/Video links** to listen and watch The Beatles music compilation.
+&nbsp;&nbsp;&nbsp;&nbsp;**“Cathy is mesmerized with one of The Beatles song and is curious to see if they have additional music”**<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Cathy clicks the **Audio/Video links** to listen and watch The Beatles music compilation.
 
 **“Tony wants to book tickets for the upcoming tour”**<br/>
 Tony is a fan of the band and has been streaming the Audio/Visual content from the website. 
 He clicks the **Gigs** link to view upcoming events and purchase tickets.
 He also clicks **Get Updates** to join the bands subscription list . This provides a fan centric experience.  
 
-**“Nick will be proposing to his fiancé and is curious to see if he can book The Beatles to make the event a memorable one”**<br/>
-Nick clicks the **Book Us** link and completes the questionnaire pop-up window. 
-This questionnaire collects information like the event date, location and time. 
-The band manager responds to Nick to confirm the event details.
+&nbsp;&nbsp;&nbsp;&nbsp;**“Nick will be proposing to his fiancé and is curious to see if he can book The Beatles to make the event a memorable one”**<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Nick clicks the **Book Us** link and completes the questionnaire pop-up window. 
+&nbsp;&nbsp;&nbsp;&nbsp;This questionnaire collects information like the event date, location and time. 
+&nbsp;&nbsp;&nbsp;&nbsp;The band manager responds to Nick to confirm the event details.
 
 **“TuPac is new to social media and is curious if The Beatles have an account”**<br/>
 Tupac finds the **Twitter** and **Facebook** icons listed on the bottom of the webpage. 
