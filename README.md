@@ -88,6 +88,7 @@ Features include a datetime control, a drop down option for specific fields and 
 the inquiry has been submitted once all the mandatory fields have been completed.<br/>
 
 Strived to use semantic HTML5 elements to structure HTML code better.
+Used JavaScript functions to handle events on the Subscribe button (Get Updates Section) and Book Us button(Modal Popup)
 
 
 # Technologies used includes:
@@ -198,34 +199,39 @@ On Github <br/>
 http://www.thebestofthebest.com.au/the-artists/the-beatles/<br/>
 https://en.wikipedia.org/wiki/The_Beatles<br/>
 
+*Media*
+Image url grabbed from [Beatles-The offical website](https://www.thebeatles.com/explore?type=story_photo_album)<br/>
+Video iframe have been taken from [Beatles-YOUTUBE channel](https://www.youtube.com/thebeatles)<br/>
+
 
 #### Code
 
-I created this project from the codes learnt throughout the course of UX design from the videos of Code Insitute.
-I also refered [Bootstrap documentation](https://getbootstrap.com/docs/3.3/css/) and
-[W3schools](https://www.w3schools.com/)<br/>
+This project is been developed from the codes learnt throughout the course of UX design from the videos of Code Insitute.
+Also referred [Bootstrap documentation](https://getbootstrap.com/docs/3.3/css/) and [W3schools](https://www.w3schools.com/)<br/>
+
+For ReadMe file referred [README MARKUPS](https://help.github.com/articles/basic-writing-and-formatting-syntax/#styling-text)<br/>
+
 
 
 #### Bugs and Solutions
-For responsive behavior of images on different screen sizes and browsers.
-[Resizing-Embeds-To-Be-Responsive](https://help.issuu.com/hc/en-us/articles/115000631608-Resizing-Embeds-To-Be-Responsive)<br>
-I copied code from the following links for bootstrap modal issues
-[Body width increases when modal is opened](https://github.com/jschr/bootstrap-modal/issues/64) <br/>
-HTML5/Bootstrap tables used in code while designing was channged to grid layout as it was not very responsive and showed a scrollbar.
+1) The landing image and header image on the webpages would not scale responsively in the viewport,instead it would display at its true size and the user on a mobile devices
+would have to scroll or swipe to see full width. I handled this issue by referring-<br/>
+[Resizing-Embeds-To-Be-Responsive](https://help.issuu.com/hc/en-us/articles/115000631608-Resizing-Embeds-To-Be-Responsive).<br>
+2) When the modal is opened on clicking the Book Us link it applied the model.open class to the body,however this made the body width increase
+to solve this issue I copied code from-<br/>
+[Body width increases when modal is opened](https://github.com/jschr/bootstrap-modal/issues/64). <br/>
+3) Encountered an issue that involved scaling down a large table of content(for audios and gigs section) to fit into a mobile device view.I used the overflow-y:hidden; however the
+horizontal scrollbar did not make the webpage appealing. An option used here is changing the HTML5 tables code to grid layout.This made the website more
+responsive on both browser and mobile devices.<br/>
+4)Also referred [Stack Overflow](https://stackoverflow.com/) occasionally.
 
-
-Also referred [Stack Overflow](https://stackoverflow.com/) occasionally
-
-*Media*
-Image url for the section is copied from [The offical website](https://www.thebeatles.com/explore?type=story_photo_album)<br/>
-Video iframe have been taken from [YOUTUBE](https://www.youtube.com/thebeatles)<br/>
-
-To create ReadMe file refered [README MARKUPS](https://help.github.com/articles/basic-writing-and-formatting-syntax/#styling-text)
 
 # Acknowledgements
-I would extend my sincere thanks to my mentor for showing different ways by which my project would response better,However all the work was 
-done by me with references made to links as mentioned in "Credits" and refering "Code Institute UX Design" videos.I also got
-inspired from the Bootstrap Project "Whiskey Drop" and "Resume Project" from Code institute as well fom [Shania Twain website]
-(https://www.shaniatwain.com/now-tour-2018) and [Beatles website](https://www.thebeatles.com/)
+I would extend my sincere thanks to my mentor for giving me ideas on optimizing my webpage,However all the work was 
+done by me with references made to links as mentioned in "Credits" and referring "Code Institute UX Design" videos.I also took
+inspiration from the Bootstrap Project "Whiskey Drop" and "Resume Project" from Code institute as well fom [Shania Twain website]
+(https://www.shaniatwain.com/now-tour-2018) and [Beatles website](https://www.thebeatles.com/).
+
+
 
 
