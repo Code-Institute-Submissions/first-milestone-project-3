@@ -15,21 +15,21 @@ This serves a central location to establish the band online presence.
 The following features are added to the website which is geared towards enhancing the users online experience while maintaining the bands artistic vision. This single scrolling webpage has sections for ease of use. The header provides a static menu that gives fans access to -<br/>
     **Home** – which serves as the initial landing page. Fans are able to access the home section by<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.	clicking The Beatles logo,<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.	and by clicking Home on the fixed Navigation Menu<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.	and by clicking Home on the fixed Navigation Menu.<br/>
     **Fab Four** <br/>
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Provides fans band bios, history, facts and concert photos.<br/>
     **Audio/Video content** <br/>
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Audio section showcases the bands audio tracks<br/>
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- While the Video section is linked to the bands YouTube channel<br/>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Audio section showcases the bands audio tracks,<br/>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- While the Video section is linked to the bands YouTube channel.<br/>
     **Gigs** <br/>
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Announces upcoming shows and provides a venue to purchase the tickets directly from the site.<br/> 
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-and provides fans a visual summary of available tickets<br/>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Announces upcoming shows and provides a venue to purchase the tickets directly from the site,<br/> 
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-and provides fans a visual summary of available tickets.<br/>
     **Get Updates** <br/>
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Allows fans to sign up for the band’s latest updates.<br/>
     **Book Us**<br/>
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Allows the fans to connect directly to the band manager for an upcoming private event or occasion<br/>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Allows the fans to connect directly to the band manager for an upcoming private event or occasion.<br/>
     **Footer** provides access to <br/>
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-The bands Social media stream<br/>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-The bands Social media stream,<br/>
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-And a link to automatically take the user to the top of the webpage. <br/>
 	
 
@@ -88,31 +88,31 @@ Features include a datetime control, a drop down option for specific fields and 
 the inquiry has been submitted once all the mandatory fields have been completed.<br/>
 
 Strived to use semantic HTML5 elements to structure HTML code better.
-Used JavaScript functions to handle events on the Subscribe button (Get Updates Section) and Book Us button(Modal Popup)
+Used JavaScript functions to handle events on the Subscribe button (Get Updates Section) and Book Us button(Modal Popup).
 
 
 # Technologies used includes:
-**HTML5:**  to create structure of webpage<br/>
-**CSS3:**  to style webpage, I used external stylesheet, file located in assets/css/style.css <br/>
-**Bootstrap v 3.3.7**- For css styling, I used grid, tables and responsive behavior of controls<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CDN link included from https://getbootstrap.com/docs/3.3/getting-started/<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for controls and classes https://getbootstrap.com/docs/3.3/css/<br/>
-**Javascript and JQuery:**  Used Javascript and Jquery for Changing text on button,for confirm pop up,bootstrap modal,collapse menu<br/>
-**Google Fonts:**  for additional font-family options https://fonts.google.com/<br/>
-**Font Awesome:** for social media icons and envelope icon  https://fontawesome.com/<br/>
-**Logo font:** design https://fontmeme.com/the-beatles-font/<br/>
-**Blur background images:** https://www.fotor.com/features/blur.html<br/>
-**Chrome Dev tools** for inspect elements for styling purpose and media queries<br/>
+**HTML5:**  to create structure of webpage.<br/>
+**CSS3:**  to style webpage, I used external stylesheet, file located in assets/css/style.css .<br/>
+**Bootstrap v 3.3.7**- For css styling, I used grid, tables and responsive behavior of controls.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CDN link included from https://getbootstrap.com/docs/3.3/getting-started/.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for controls and classes https://getbootstrap.com/docs/3.3/css/.<br/>
+**Javascript and JQuery:**  Used Javascript and Jquery for Changing text on button,for confirm pop up,bootstrap modal,collapse menu and event handling.<br/>
+**Google Fonts:**  for additional font-family options https://fonts.google.com/.<br/>
+**Font Awesome:** for social media icons and envelope icon  https://fontawesome.com/.<br/>
+**Logo font:** design https://fontmeme.com/the-beatles-font./<br/>
+**Blur background images:** https://www.fotor.com/features/blur.html.<br/>
+**Chrome Dev tools** for inspect elements for styling purpose and media queries.<br/>
 
 # Testing:<br/>
-The single scrollable webpage is tested across the following browsers
+The single scrollable webpage is tested across the following browsers,
 -	Google Chrome 	(Testing successfully met requirements)
 -	Firefox			(Testing successfully met requirements)
 -	Internet Explorer	(Testing successfully met requirements)
 
 **Testing Tools Used**<br/>
-• W3C CSS Validation Service (https://jigsaw.w3.org/css-validator/)<br/>
-• W3C Markup Validation Service (https://validator.w3.org/)<br/>
+• W3C CSS Validation Service (https://jigsaw.w3.org/css-validator/).<br/>
+• W3C Markup Validation Service (https://validator.w3.org/).<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Received the following 
 Warning: The datetime-local input type is not supported in all browsers. Please be sure to test, and consider using a polyfill.
 However the website works well on all browsers mentioned above.<br/>
@@ -128,7 +128,7 @@ This was tested in Google Chrome Developer tools responsive mode on
 Galaxy S5, Pixel 2, Pixel 2XL,iPhone 5/SE, iPhone 6/7/8, iPhone Plus 6/7/8, iPhone X, iPad, iPad Pro.<br/>
 •	The navigation bar collapses to a burger icon when viewed on medium and small devices. 
 On hovering on each of the link the color changes to yellow this is done using pseudo-elements in CSS.<br/>
-•	Tested every link on the navigation bar and verified that I was directed to the appropriate sections<br/>
+•	Tested every link on the navigation bar and verified that I was directed to the appropriate sections.<br/>
 
 2)	**Fab Four Section**<br/>
 •	Clicking the “Read More” link takes me to a new webpage.<br/>
@@ -140,11 +140,11 @@ This was achieved using VH (percent of view height) units.<br/>
 This image is accessible only smaller and large devices.<br>
 
 3)	**Audio and Video Section**<br/>
-•	Tested all audio and embedded video files and they play well<br/>
+•	Tested all audio and embedded video files and they play well.<br/>
 
 4)	**Gigs Section**<br/>
 •	Tested the responsive behavior of this section.<br/>
-•	Since the buttons have no post method implemented, clicking the buttons has no effect<br/>
+•	Since the buttons have no post method implemented, clicking the buttons has no effect.<br/>
 
 5) **Get Updates Section**<br/>
 •	Verified error message on the form when the mandatory fields were left blank. 
@@ -169,9 +169,9 @@ it directs you to the desired site.<br/>
 Project is built and developed on [Cloud9](https://ide.c9.io) workspace<br/><br/>
 The files have been edited in this development instance. When ready, the changes were "deployed" to the staging instance. 
 After user acceptance and testing, deploy again, this time to production.
-I used git and GitHub pages for deployment <br/><br>
+I used git and GitHub pages for deployment. <br/><br>
 
-The following steps are followed to deploy the pages<br/>
+The following steps are followed to deploy the pages:<br/>
 1)	Initialised the local directory in my project as a git repository used the cloud9 terminal to perform this step<br/>
         $git init<br/>
 2)	Added the files in the local repository created. And staged them for commit
@@ -179,7 +179,7 @@ The following steps are followed to deploy the pages<br/>
 3)	Commited the files that I have staged in the local repository.<br/>
         $git commit –m ”Initial commit”<br/>
 This step is perfomed for any changes I have done to sections in webpages and stylesheets as 
-well as the images and audios folder<br/>
+well as the images and audios folder.<br/>
 4)	Created a new repository in Github and in the terminal, added the URL for the remote repository 
 where your local repository will be pushed.<br/>
 5)	On major changes I have pushed  the changes in the local repository to GitHub.
@@ -187,19 +187,19 @@ where your local repository will be pushed.<br/>
         
         
 On Github <br/>
-1) Click Settings of the repository hosting the project and generated the external link as below
+1) Click Settings of the repository hosting the project and generated the external link.
 
 
-[Link to github pages:https://github.com/nadia-solution-tracker/first-milestone-project](https://github.com/nadia-solution-tracker/first-milestone-project)<br/>
-[Link to Final Deployment:https://nadia-solution-tracker.github.io/first-milestone-project/](https://nadia-solution-tracker.github.io/first-milestone-project/)<br/>
+[Link to Github pages](https://github.com/nadia-solution-tracker/first-milestone-project)<br/>
+[Link to Final Project](https://nadia-solution-tracker.github.io/first-milestone-project/)<br/>
 
 # Credits
 #### Content
-**FabFour Section and About us.html**- Content for this section is copied from <br/>
+**FabFour Section and About us.html**- Content for this section is copied from- <br/>
 http://www.thebestofthebest.com.au/the-artists/the-beatles/<br/>
 https://en.wikipedia.org/wiki/The_Beatles<br/>
 
-*Media*
+**Media**<br/>
 Image url grabbed from [Beatles-The offical website](https://www.thebeatles.com/explore?type=story_photo_album)<br/>
 Video iframe have been taken from [Beatles-YOUTUBE channel](https://www.youtube.com/thebeatles)<br/>
 
@@ -223,7 +223,7 @@ to solve this issue I copied code from-<br/>
 3) Encountered an issue that involved scaling down a large table of content(for audios and gigs section) to fit into a mobile device view.I used the overflow-y:hidden; however the
 horizontal scrollbar did not make the webpage appealing. An option used here is changing the HTML5 tables code to grid layout.This made the website more
 responsive on both browser and mobile devices.<br/>
-4)Also referred [Stack Overflow](https://stackoverflow.com/) occasionally.
+4) Also referred [Stack Overflow](https://stackoverflow.com/) occasionally.
 
 
 # Acknowledgements
