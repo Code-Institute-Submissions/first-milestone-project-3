@@ -165,17 +165,20 @@ it directs you to the desired site.<br/>
 •   Confirmed the Back to the top link works by directing the user to the top of the webpage.<br/>
 
 # Deployment <br/>
-Project is built on [Cloud9](https://ide.c9.io)<br/><br/>
-To perfom the Deployment  I used Git and Github pages<br/>
-I perfomed the following steps<br/>
-1)	Initialised the local directory in my project as a git repository used the cloud9 terminal to perfrm this step<br/>
+Project is built and developed on [Cloud9](https://ide.c9.io) workspace<br/><br/>
+The files have been edited in this development instance. When ready, the changes were "deployed" to the staging instance. 
+After user acceptance and testing, deploy again, this time to production.
+I used git and GitHub pages for deployment <br/><br>
+
+The following steps are followed to deploy the pages<br/>
+1)	Initialised the local directory in my project as a git repository used the cloud9 terminal to perform this step<br/>
         $git init<br/>
-2)	Added the files in the local repository created. Aand staged them for commit
+2)	Added the files in the local repository created. And staged them for commit
         $git add .<br/>
 3)	Commited the files that I have staged in the local repository.<br/>
         $git commit –m ”Initial commit”<br/>
-This step is perfomed for any changes I have done to sections in webpages and style sheets as 
-well as the image,audio and video folder.<br/>
+This step is perfomed for any changes I have done to sections in webpages and stylesheets as 
+well as the images and audios folder<br/>
 4)	Created a new repository in Github and in the terminal, added the URL for the remote repository 
 where your local repository will be pushed.<br/>
 5)	On major changes I have pushed  the changes in the local repository to GitHub.
@@ -183,7 +186,7 @@ where your local repository will be pushed.<br/>
         
         
 On Github <br/>
-1) Clicked Settings of the repository hosting the project and generated the external link as below
+1) Click Settings of the repository hosting the project and generated the external link as below
 
 
 [Link to github pages:https://github.com/nadia-solution-tracker/first-milestone-project](https://github.com/nadia-solution-tracker/first-milestone-project)<br/>
@@ -204,7 +207,7 @@ I also refered [Bootstrap documentation](https://getbootstrap.com/docs/3.3/css/)
 
 
 #### Bugs and Solutions
-For responsive behavior on different on different screen sizes and browsers.
+For responsive behavior of images on different screen sizes and browsers.
 [Resizing-Embeds-To-Be-Responsive](https://help.issuu.com/hc/en-us/articles/115000631608-Resizing-Embeds-To-Be-Responsive)<br>
 I copied code from the following links for bootstrap modal issues
 [Body width increases when modal is opened](https://github.com/jschr/bootstrap-modal/issues/64) <br/>
