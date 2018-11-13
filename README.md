@@ -4,7 +4,7 @@
 This page has been commissioned by the 1960’s rock band “The Beatles”.  The webpage is designed to<br/>
        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-attract new and engage existing fans,<br/>
        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-inform fans through band bios,<br/>
-       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-showcases the bands audio-visual content and media,<br/>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-showcases the bands audio-visual content,<br/>
        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-provides a plug for their social media networks,<br/>
        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-eliminates third party resellers by directly advertising upcoming shows and gigs,<br/>
        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-and building a fan base by generating a mailing list.<br/><br/>
@@ -12,23 +12,22 @@ This serves a central location to establish the band online presence.
 ![IMAGE](assets/images/ScreenShot.JPG)<br/><br/>
 
 ## User experience (UX) design 
-The following features are added to the website which is geared towards enhancing the users online experience while maintaining the bands artistic vision.  This single scrolling webpage has sections for ease of use.
-The header provides a static menu that gives fans access to -<br/>
-    **Home** – which serves as the initial landing page.Fans are able to access the home section by<br/>
+The following features are added to the website which is geared towards enhancing the users online experience while maintaining the bands artistic vision. This single scrolling webpage has sections for ease of use. The header provides a static menu that gives fans access to -<br/>
+    **Home** – which serves as the initial landing page. Fans are able to access the home section by<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.	clicking The Beatles logo,<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.	clicking Home on the fixed Navigation Menu<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.	and by clicking Home on the fixed Navigation Menu<br/>
     **Fab Four** <br/>
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Provides fans with band bios, history, facts and concert photos.<br/>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Provides fans band bios, history, facts and concert photos.<br/>
     **Audio/Video content** <br/>
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Audio section showcases the bands audio tracks<br/>
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- While the Video section is linked to the bands YouTube channel<br/>
     **Gigs** <br/>
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Announces upcoming shows and provides a venue to purchase the tickets directly from the site.<br/> 
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-It also gives fans a visual summary of available tickets<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-and provides fans a visual summary of available tickets<br/>
     **Get Updates** <br/>
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enables fans to sign up for the band’s latest updates.<br/>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Allows fans to sign up for the band’s latest updates.<br/>
     **Book Us**<br/>
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Allows the fans connect directly to the band manager for an upcoming private event or occasion<br/>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Allows the fans to connect directly to the band manager for an upcoming private event or occasion<br/>
     **Footer** provides access to <br/>
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-The bands Social media stream<br/>
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-And a link to automatically take the user to the top of the webpage. <br/>
@@ -40,8 +39,8 @@ The header provides a static menu that gives fans access to -<br/>
 Rudy clicks the **Fab Four** link which welcomes him to a condensed introduction. He has the option to read the extended version,
 along with facts and history by clicking **Read More** link. 
 
-**“Cathy is mesmerized with one of The Beatles song and is curious to see if they have additional music”**<br/>
-Cathy clicks the **Audio/Video links** to listen and watch The Beatles music compilation.
+&nbsp;&nbsp;**“Cathy is mesmerized with one of The Beatles song and is curious to see if they have additional music”**<br/>
+&nbsp;&nbsp;Cathy clicks the **Audio/Video links** to listen and watch The Beatles music compilation.
 
 **“Tony wants to book tickets for the upcoming tour”**<br/>
 Tony is a fan of the band and has been streaming the Audio/Visual content from the website. 
