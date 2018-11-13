@@ -35,22 +35,26 @@ The following features are added to the website which is geared towards enhancin
 
 # User stories
 
- **“Rudy just heard "The Beatles" and wants to know about the band”**<br/>
+**“Rudy just heard "The Beatles" and wants to know about the band”**<br/>
 Rudy clicks the **Fab Four** link which welcomes him to a condensed introduction. He has the option to read the extended version,
 along with facts and history by clicking **Read More** link. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;**“Cathy is mesmerized with one of The Beatles song and is curious to see if they have additional music”**<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;Cathy clicks the **Audio/Video links** to listen and watch The Beatles music compilation.
+
+**“Cathy is mesmerized with one of The Beatles song and is curious to see if they have additional music”**<br/>
+Cathy clicks the **Audio/Video links** to listen and watch The Beatles music compilation.
+
 
 **“Tony wants to book tickets for the upcoming tour”**<br/>
 Tony is a fan of the band and has been streaming the Audio/Visual content from the website. 
 He clicks the **Gigs** link to view upcoming events and purchase tickets.
 He also clicks **Get Updates** to join the bands subscription list . This provides a fan centric experience.  
 
-&nbsp;&nbsp;&nbsp;&nbsp;**“Nick will be proposing to his fiancé and is curious to see if he can book The Beatles to make the event a memorable one”**<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;Nick clicks the **Book Us** link and completes the questionnaire pop-up window. 
-&nbsp;&nbsp;&nbsp;&nbsp;This questionnaire collects information like the event date, location and time. 
-&nbsp;&nbsp;&nbsp;&nbsp;The band manager responds to Nick to confirm the event details.
+
+**“Nick will be proposing to his fiancé and is curious to see if he can book The Beatles to make the event a memorable one”**<br/>
+Nick clicks the **Book Us** link and completes the questionnaire pop-up window. 
+This questionnaire collects information like the event date, location and time. 
+The band manager responds to Nick to confirm the event details.
+
 
 **“TuPac is new to social media and is curious if The Beatles have an account”**<br/>
 Tupac finds the **Twitter** and **Facebook** icons listed on the bottom of the webpage. 
@@ -64,32 +68,32 @@ Clicking the link below will direct you to Dropbox<br/>
 
 # Features
 The website is responsive and conforms to different phones and browsers.<br/>
-•  The **Landing Page** provides a single scrollable feature.
-•  The **Navigation Menu** provides a inline list of clickable links directing users to different sections on the webpage.<br/>
+•  The **Landing Page** provides a single scrollable feature.<br/><br/>
+•  The **Navigation Menu** provides an inline list of clickable links directing users to different sections on the webpage.<br/>
 &nbsp;&nbsp;&nbsp;Hovering over the links shows active status of the links. <br/>
 &nbsp;&nbsp;&nbsp;The Navigation Menu list collapses to a burger button when viewed on smaller devices.<br/><br/>
 • The **Fab Four** section displays text and photo content about the band. <br/>&nbsp;&nbsp;&nbsp;A **“Read More”** 
-link will display a webpage with new images and more information about the band.<br/>
-&nbsp;&nbsp;&nbsp;Only the images displayed on the Fab Four have their sources (SRC) linked to other website URL’s.<br/><br/>
+is a clickable link that display a webpage with new images and more information about the band.<br/>
+Only the images displayed on the Fab Four have their sources (SRC) linked to other website URL’s.<br/><br/>
 • The bands audio (.wav) and all other image (.jpg) files have been downloaded to assets/audios and 
-the assets/images folder &nbsp;&nbsp;&nbsp;respectively. The Audio controls width resizes to different devices.<br/><br/>
+the assets/images folder respectively. The Audio controls width resizes to different devices.<br/><br/>
 • **Video section** displays embedded (iframe) videos from the bands YouTube channel<br/><br/>
 • **Gigs section** outlines a tabular display of upcoming events and ticket status indicator. 
-The display conforms to different &nbsp;&nbsp;&nbsp;webpage sizes. <br/><br/>
+The display conforms to different webpage sizes. <br/><br/>
 • **Get updates section** provides a fan subscription option. Java script has been used to change the 
-button text to Subscribed once the &nbsp;&nbsp;&nbsp;user enters all mandatory fields and clicks the button to complete the process.<br/><br/>
+button text to Subscribed once the user enters all mandatory fields and clicks the button to complete the process.<br/><br/>
 • The **Footer** displays social media connectors as clickable icons that can be directed to the bands social networks.<br/><br/>
 • Clicking the **Book Us** link in the navigation menu activates a pop-up (Bootstrap modal) input form.
-Features include a &nbsp;&nbsp;&nbsp;datetime control, a drop down option for specific fields and pop-up window confirming
-the inquiry has been submitted once &nbsp;&nbsp;&nbsp;all the mandatory fields have been completed.<br/>
+Features include a datetime control, a drop down option for specific fields and pop-up window confirming
+the inquiry has been submitted once all the mandatory fields have been completed.<br/>
 
 Strived to use semantic HTML5 elements to structure HTML code better.
 
 
 # Technologies used includes:
 **HTML5:**  to create structure of webpage<br/>
-**CSS3:**  to style webpage,Used external stylesheet,file located in assets/css/style.css <br/>
-**Bootstrap v 3.3.7**- For css styling, grid, tables and responsive behavior of controls<br/>
+**CSS3:**  to style webpage, I used external stylesheet, file located in assets/css/style.css <br/>
+**Bootstrap v 3.3.7**- For css styling, I used grid, tables and responsive behavior of controls<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CDN link included from https://getbootstrap.com/docs/3.3/getting-started/<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for controls and classes https://getbootstrap.com/docs/3.3/css/<br/>
 **Javascript and JQuery:**  Used Javascript and Jquery for Changing text on button,for confirm pop up,bootstrap modal,collapse menu<br/>
